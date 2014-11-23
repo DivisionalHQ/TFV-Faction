@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class division_custom_faction
+	class tfv_custom_faction
 	{
 		units[] = {};
 		weapons[] = {};
@@ -20,14 +20,14 @@ class CfgPatches
 
 class CfgFactionClasses
 {
-	class Division_Units;
+	class TFV_Units;
 };
 
 class CfgVehicles
 {
 	class NOR_SL_Wood;
 	
-		class division_SL_Wood: NOR_SL_Wood
+		class TFV_SL_Wood: NOR_SL_Wood
 		{
 		
 		
