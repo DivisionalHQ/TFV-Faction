@@ -18,9 +18,24 @@ class CfgPatches
 	};
 };
 
-class CfgFactionClasses
+class cfgFactionClasses
 {
-	class TFV_Units;
+	class TFV_Units
+	{		
+		displayname="TF Valkyrie";
+		side=1;
+		priority=2;
+		flag="\tfv_faction\data\nor_faction_flag.paa";
+		icon="\tfv_faction\data\nor_faction_icon.paa";
+	};
+};
+
+class CfgVehicleClasses
+{
+	class TFV_Wood
+	{
+		displayName="Men (Woodland)";
+	};
 };
 
 class CfgVehicles
@@ -29,7 +44,8 @@ class CfgVehicles
 	
 		class TFV_SL_Wood: NOR_SL_Wood
 		{
-		
-		
+		side = 1;
+		faction = "TFV_Units";
+		displayName = "Squad Leader TFV";
 		};
 };
