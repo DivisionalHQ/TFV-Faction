@@ -49,6 +49,15 @@ class CfgVehicles
 		{
 		side = 1;
 		faction = "TFV_Units";
-		displayName = "Squad Leader TFV";
+		displayName = "TFV Squad Leader";
 		};
+		
+		class TFV_TL_Wood: B_Soldier_TL_F
+		{
+		side = 1;
+		faction = "TFV_Units";
+		displayName = "TFV Team Leader";
+		};
+		
+		
 };
