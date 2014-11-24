@@ -50,6 +50,8 @@ class CfgVehicles
 		side = 1;
 		faction = "TFV_Units";
 		displayName = "TFV Squad Leader";
+		uniformClass = "TFV_Uniform_Basic";
+		hiddenSelections[] = {"camo"};
 		};
 		
 		class TFV_TL_Wood: B_Soldier_TL_F
@@ -57,7 +59,28 @@ class CfgVehicles
 		side = 1;
 		faction = "TFV_Units";
 		displayName = "TFV Team Leader";
+		uniformClass = "TFV_Uniform_Basic";
+		hiddenSelections[] = {"camo"};
 		};
 		
 		
+};
+
+class cfgWeapons
+{
+	class Uniform_Base;
+	class UniformItem;
+	
+	class TFV_Uniform_Basic: Uniform_Base
+	{
+		scope=2;
+		displayName = "TFV Basic Uniform"
+		picture = "\tfv_faction\data\ui\nor_uniform_wood_icon_ca.paa";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[]=
+		{
+			"\tfv_faction\data\nor_indep_uniform_wood_co.paa"
+		};
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	};
 };
