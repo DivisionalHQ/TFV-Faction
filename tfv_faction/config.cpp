@@ -49,19 +49,21 @@ class CfgVehicles
 		// Officer Base - WIP, must change uniform
 		class TFV_Officer_Base_Wood: B_Soldier_F
 		{
-		uniformClass = "TFV_Uniform_Basic";
+		uniformClass = "TFV_Uniform_Officer";
 		side = 1;
 		hiddenSelections[] = {"camo","insignia"};
+		/*
 		hiddenSelectionsTextures[]=
 			{
 				"\tfv_faction\data\nor_indep_uniform_wood_co.paa"
-			};
+			};*/
 		class EventHandlers
 			{
 				init="[(_this select 0),""tfv_nor_flag_insignia""] call BIS_fnc_setUnitInsignia";
 			};
 		
 		};
+		
 
 		// Soldier Base
 		class TFV_Soldier_Base_Wood: B_Soldier_F
@@ -69,10 +71,11 @@ class CfgVehicles
 		uniformClass = "TFV_Uniform_Basic";
 		side = 1;
 		hiddenSelections[] = {"camo","insignia"};
+		/*
 		hiddenSelectionsTextures[]=
 			{
 				"\tfv_faction\data\nor_indep_uniform_wood_co.paa"
-			};
+			}; */
 		class EventHandlers
 			{
 				init="[(_this select 0),""tfv_nor_flag_insignia""] call BIS_fnc_setUnitInsignia";
@@ -81,13 +84,12 @@ class CfgVehicles
 		};
 		
 		
-		
 
 	//Faction Classes - all units built upon base above, either Officer Base or Soldier Base. Pilot Base will be added. 
 	
 	class TFV_SL_Wood: TFV_Officer_Base_Wood
 		{
-		displayName = "Squad Leader";
+		displayName = "Section Leader";
 		faction = "TFV_Units";
 		};
 		
@@ -111,13 +113,13 @@ class CfgVehicles
 		
 	class TFV_MG1_Wood: TFV_Soldier_Base_Wood
 		{
-		displayName = "Machinegunner 1";
+		displayName = "MG1";
 		faction = "TFV_Units";
 		};
 		
 	class TFV_MG2_Wood: TFV_Soldier_Base_Wood
 		{
-		displayName = "Machinegunner 2";
+		displayName = "MG2";
 		faction = "TFV_Units";
 		};
 
@@ -135,50 +137,14 @@ class CfgVehicles
 		
 	class TFV_HPilot_Wood: TFV_Officer_Base_Wood
 		{
-		displayName = "Helicopter Pilot";
+		displayName = "Pilot (Heli)";
 		faction = "TFV_Units";
 		};
 		
 	class TFV_JPilot_Wood: TFV_Officer_Base_Wood
 		{
-		displayName = "Fixed-Wing Pilot";
+		displayName = "Pilot (Fixed-Wing)";
 		faction = "TFV_Units";
 		};
-
-	//Uniform Base
-class cfgWeapons
-{
-	class Uniform_Base;
-	class UniformItem;
-	
-	class TFV_Uniform_Basic: Uniform_Base
-	{
-		scope=2;
-		displayName = "TFV Basic Uniform"
-		picture = "\tfv_faction\data\ui\nor_uniform_wood_icon_ca.paa";
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[]=
-		{
-			"\tfv_faction\data\nor_indep_uniform_wood_co.paa"
-		};
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		class ItemInfo: UniformItem
-        {
-            uniformModel = "-";
-            uniformClass = "TFV_SL_Wood"; 
-            containerClass = "Supply40"; 
-            mass = 40; //Weight
-            hiddenSelections[] = {"camo"};
-        };
-	};
 };
 
-class CfgUnitInsignia
-{
-	class tfv_nor_flag_insignia
-	{
-		displayName="TFV_NOR_INSIGNIA";
-		texture="\tfv_faction\data\insignias\nor_insg_flag_color_co.paa";
-		author="Loberg";
-	};
-};
