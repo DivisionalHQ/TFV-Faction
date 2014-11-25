@@ -33,7 +33,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
         {
             uniformModel = "-";
-            uniformClass = "TFV_Rifleman_Wood"; 
+            /*uniformClass = "TFV_Rifleman_Wood"; */
             containerClass = "Supply40"; 
             mass = 40; //Weight
             hiddenSelections[] = {"camo"};
@@ -54,12 +54,37 @@ class cfgWeapons
 		class ItemInfo: UniformItem
         {
             uniformModel = "-";
-            uniformClass = "TFV_SL_Wood"; 
+            /*uniformClass = "TFV_SL_Wood"; */
             containerClass = "Supply40"; 
             mass = 40; //Weight
             hiddenSelections[] = {"camo"};
         };
 	};
+	
+	//Personal Uniforms
+	
+	class TFV_Loberg_Wood: Uniform_Base
+	{
+		scope=2;
+		displayName = "TFV Uniform Loberg"
+		picture = "\tfv_uniform\data\ui\nor_uniform_wood_icon_ca.paa";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[]=
+		{
+			"\tfv_uniform\data\uniforms\personal\Loberg_Upper_Woodland_Normal.paa"
+		};
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+        {
+            uniformModel = "-";
+            /*uniformClass = "TFV_SL_Wood"; */
+            containerClass = "Supply40"; 
+            mass = 40; //Weight
+            hiddenSelections[] = {"camo"};
+        };
+	};	
+
+	
 	
 };
 
