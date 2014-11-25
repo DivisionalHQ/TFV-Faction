@@ -6,7 +6,7 @@ class CfgPatches
 		weapons[] = {};
 		requiredVersion = 1.0;
 		requiredAddons[] = {};
-		author[] = {"Pedersen/Loberg test"};
+		author[] = {"Pedersen/Loberg"};
 		version = 0.1;
 		versionStr = "0.1";
 	};
@@ -91,6 +91,7 @@ class CfgVehicles
 		{
 		displayName = "Section Leader";
 		faction = "TFV_Units";
+		backpack=""; //not defined yet
 		};
 		
 	class TFV_TL_Wood: TFV_Officer_Base_Wood

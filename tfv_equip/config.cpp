@@ -1,3 +1,5 @@
+/* This will contain vests, helmets and other hats if neccessary*/
+
 class CfgPatches
 {
 	class tfv_custom_equip
