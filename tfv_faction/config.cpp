@@ -90,6 +90,13 @@ class CfgVehicles
 		faction = "TFV_Units";
 		
 		};
+		
+	class TFV_Rifleman_Wood: TFV_Soldier_Base_Wood
+		{
+		displayName = "Rifleman";
+		faction = "TFV_Units";
+		
+		};
 
 	//Uniform Base
 class cfgWeapons
