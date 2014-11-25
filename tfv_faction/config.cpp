@@ -46,7 +46,7 @@ class CfgVehicles
 	class B_soldier_exp_F;
 	class B_Soldier_F;
 	
-		// Officer Base
+		// Officer Base - WIP, must change uniform
 		class TFV_Officer_Base_Wood: B_Soldier_F
 		{
 		uniformClass = "TFV_Uniform_Basic";
@@ -83,7 +83,8 @@ class CfgVehicles
 		
 		
 
-	//Faction Classes - uses Soldier Base, see above - WIP NOT WORKING CORRECTLY
+	//Faction Classes - all units built upon base above, either Officer Base or Soldier Base. Pilot Base will be added. 
+	
 	class TFV_SL_Wood: TFV_Officer_Base_Wood
 		{
 		displayName = "Squad Leader";
