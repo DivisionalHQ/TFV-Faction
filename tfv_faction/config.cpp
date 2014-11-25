@@ -6,7 +6,7 @@ class CfgPatches
 		weapons[] = {};
 		requiredVersion = 1.0;
 		requiredAddons[] = {};
-		author[] = {"Pedersen/Loberg"};
+		author[] = {"Pedersen/Loberg test"};
 		version = 0.1;
 		versionStr = "0.1";
 	};
