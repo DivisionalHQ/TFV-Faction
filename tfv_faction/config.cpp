@@ -44,28 +44,54 @@ class CfgVehicles
 	class B_crew_F;
 	class B_spotter_F;
 	class B_soldier_exp_F;
+	class B_Soldier_F;
 	
-	class TFV_SL_Wood: B_Soldier_SL_F
+		// Officer Base
+		class TFV_Officer_Base_Wood: B_Soldier_F
 		{
-		side = 1;
-		faction = "TFV_Units";
-		displayName = "TFV Squad Leader";
 		uniformClass = "TFV_Uniform_Basic";
-		hiddenSelections[] = {"camo"};
+		side = 1;
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[]=
+			{
+				"\tfv_faction\data\nor_indep_uniform_wood_co.paa"
+			};
+		class EventHandlers
+			{
+				init="[(_this select 0),""tfv_nor_flag_insignia""] call BIS_fnc_setUnitInsignia";
+			};
+		
+		};
+
+		// Soldier Base
+		class TFV_Soldier_Base_Wood: B_Soldier_F
+		{
+		uniformClass = "TFV_Uniform_Basic";
+		side = 1;
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[]=
+			{
+				"\tfv_faction\data\nor_indep_uniform_wood_co.paa"
+			};
+		class EventHandlers
+			{
+				init="[(_this select 0),""tfv_nor_flag_insignia""] call BIS_fnc_setUnitInsignia";
+			};
+		
 		};
 		
-		class TFV_TL_Wood: B_Soldier_TL_F
-		{
-		side = 1;
-		faction = "TFV_Units";
-		displayName = "TFV Team Leader";
-		uniformClass = "TFV_Uniform_Basic";
-		hiddenSelections[] = {"camo"};
-		};
 		
+		
+
+	//Faction Classes - uses Soldier Base, see above - WIP NOT WORKING CORRECTLY
+	class TFV_SL_Wood: TFV_Officer_Base_Wood
+		{
+		displayName = "Squad Leader";
+		faction = "TFV_Units";
 		
 };
 
+	//Uniform Base
 class cfgWeapons
 {
 	class Uniform_Base;
@@ -82,5 +108,23 @@ class cfgWeapons
 			"\tfv_faction\data\nor_indep_uniform_wood_co.paa"
 		};
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+        {
+            uniformModel = "-";
+            uniformClass = "TFV_SL_Wood"; 
+            containerClass = "Supply40"; 
+            mass = 40; //Weight
+            hiddenSelections[] = {"camo"};
+        };
+	};
+};
+
+class CfgUnitInsignia
+{
+	class tfv_nor_flag_insignia
+	{
+		displayName="TFV_NOR_INSIGNIA";
+		texture="\tfv_faction\data\insignias\nor_insg_flag_color_co.paa";
+		author="Loberg";
 	};
 };
