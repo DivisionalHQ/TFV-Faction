@@ -89,7 +89,7 @@ class CfgVehicles
 		displayName = "Squad Leader";
 		faction = "TFV_Units";
 		
-};
+		};
 
 	//Uniform Base
 class cfgWeapons
