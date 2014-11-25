@@ -88,14 +88,60 @@ class CfgVehicles
 		{
 		displayName = "Squad Leader";
 		faction = "TFV_Units";
+		};
 		
+	class TFV_TL_Wood: TFV_Officer_Base_Wood
+		{
+		displayName = "Team Leader";
+		faction = "TFV_Units";
+		};
+		
+	class TFV_Medic_Wood: TFV_Soldier_Base_Wood
+		{
+		displayName = "Combat Medic";
+		faction = "TFV_Units";
 		};
 		
 	class TFV_Rifleman_Wood: TFV_Soldier_Base_Wood
 		{
 		displayName = "Rifleman";
 		faction = "TFV_Units";
+		};
 		
+	class TFV_MG1_Wood: TFV_Soldier_Base_Wood
+		{
+		displayName = "Machinegunner 1";
+		faction = "TFV_Units";
+		};
+		
+	class TFV_MG2_Wood: TFV_Soldier_Base_Wood
+		{
+		displayName = "Machinegunner 2";
+		faction = "TFV_Units";
+		};
+
+	class TFV_AT_Wood: TFV_Soldier_Base_Wood
+		{
+		displayName = "Rifleman (AT)";
+		faction = "TFV_Units";
+		};
+
+	class TFV_GR_Wood: TFV_Soldier_Base_Wood
+		{
+		displayName = "Grenadier";
+		faction = "TFV_Units";
+		};
+		
+	class TFV_HPilot_Wood: TFV_Officer_Base_Wood
+		{
+		displayName = "Helicopter Pilot";
+		faction = "TFV_Units";
+		};
+		
+	class TFV_JPilot_Wood: TFV_Officer_Base_Wood
+		{
+		displayName = "Fixed-Wing Pilot";
+		faction = "TFV_Units";
 		};
 
 	//Uniform Base
