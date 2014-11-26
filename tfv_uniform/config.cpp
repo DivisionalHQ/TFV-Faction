@@ -41,21 +41,15 @@ class cfgWeapons
 	{
 		author="TFV";
 		scope=2;
-		displayName="TFV Officer Uniform";
-		picture = "\tfv_uniform\data\ui\nor_uniform_officer_wood_icon_ca.paa";
+		displayName="TFV Combat Uniform (Wood)";
+		picture = "\tfv_uniform\data\ui\nor_uniform_wood_icon_ca.paa"; 
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		hiddenSelections[]=
-		{
-			"camo"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"
-		};
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="TFV_Officer_Base_Wood";
+			uniformClass="TFV_Uniform_Base_Wood";
 			containerClass="Supply40";
 			mass=40;
 		};
