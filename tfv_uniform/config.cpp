@@ -21,15 +21,8 @@ class CfgVehicles
 		scopeCurator=0;
 		modelsides[]={3,2,1,0};
 		uniformClass="TFV_Uniform_Officer";
-		hiddenSelections[]=
-		{
-			"Camo",
-			"insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\tfv_uniform\data\uniforms\nor_indep_uniform_wood_co.paa"
-		};
+		hiddenSelections[]= {"Camo","insignia"};
+		hiddenSelectionsTextures[]= {"\tfv_uniform\data\uniforms\nor_indep_uniform_wood_co.paa"};
 		model="\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
 	};
 
