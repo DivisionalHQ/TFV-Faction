@@ -58,7 +58,7 @@ class CfgVehicles
 		displayName="Test SL";
 		identityTypes[]= {"LanguageENG_F","Head_EURO"};
 		author="TFV";
-		nakedUniform="NOR_BasicBody";
+		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Officer";
 		class EventHandlers
 		{
