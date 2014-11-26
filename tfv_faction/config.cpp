@@ -1,3 +1,4 @@
+class DefaultEventHandlers;
 class CfgPatches
 {
 	class tfv_custom_faction
