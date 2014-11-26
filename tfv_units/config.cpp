@@ -1,7 +1,7 @@
 class DefaultEventHandlers;
 class CfgPatches
 {
-	class tfv_custom_faction
+	class tfv_custom_units
 	{
 		units[] = {};
 		weapons[] = {};
@@ -13,16 +13,9 @@ class CfgPatches
 	};
 };
 
-class cfgFactionClasses
+class CfgFactionClasses
 {
-	class TFV_Units
-	{		
-		displayname="TF Valkyrie";
-		side=1;
-		priority=2;
-		flag="\tfv_faction\data\tfv_faction_flag.paa";
-		icon="\tfv_faction\data\tfv_faction_icon.paa";
-	};
+	class TFV_units;
 };
 
 class CfgVehicleClasses
