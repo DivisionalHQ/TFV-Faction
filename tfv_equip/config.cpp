@@ -8,7 +8,7 @@ class CfgPatches
 		weapons[] = {};
 		requiredVersion = 1.0;
 		requiredAddons[] = {};
-		author[] = {"Pedersen/Loberg"};
+		author[] = {"TFV"};
 		version = 0.1;
 		versionStr = "0.1";
 	};
@@ -17,6 +17,7 @@ class CfgPatches
 class cfgWeapons
 {
 class V_PlateCarrier1_rgr;
+class VestItem;
 class TFV_Vest_Standard_Wood: V_PlateCarrier1_rgr
 	{
 		_generalMacro="V_PlateCarrier1_rgr";
@@ -31,7 +32,7 @@ class TFV_Vest_Standard_Wood: V_PlateCarrier1_rgr
 		{
 			"\tfv_equip\data\vest\nor_carrier_standard_wood_co.paa"
 		};
-		author="Loberg";
+		author="TFV";
 		class ItemInfo: VestItem
 		{
 			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";

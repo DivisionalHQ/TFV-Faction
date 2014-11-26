@@ -6,7 +6,7 @@ class CfgPatches
 		weapons[] = {};
 		requiredVersion = 1.0;
 		requiredAddons[] = {};
-		author[] = {"Pedersen/Loberg"};
+		author[] = {"TFV"};
 		version = 0.1;
 		versionStr = "0.1";
 	};
@@ -19,7 +19,7 @@ class CfgVehicles
 	{
 		scope=2;
 		displayName="TFV Kitbag (Wood)";
-		author="Vasilyevich";
+		author="TFV";
 		picture="\tfv_backpacks\data\ui\nor_kitbag_wood_icon_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
