@@ -1,0 +1,17 @@
+saved for later use:
+
+		class EventHandlers
+		{
+			init="[(_this select 0),""tfv_nor_flag_insignia""] call BIS_fnc_setUnitInsignia";
+		};
+
+
+class CfgUnitInsignia
+{
+	class tfv_nor_flag_insignia
+	{
+		displayName="TFV_NOR_INSIGNIA";
+		texture="\tfv_uniform\data\insignias\nor_insg_flag_color_co.paa";
+		author="TFV";
+	};
+};

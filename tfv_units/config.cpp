@@ -15,7 +15,7 @@ class CfgPatches
 
 class CfgFactionClasses
 {
-	class TFV_units;
+	class tfv_units;
 };
 
 class CfgVehicleClasses
@@ -24,6 +24,12 @@ class CfgVehicleClasses
 	{
 		displayName="Men (Woodland)";
 	};
+	
+	class TFV_Desert
+	{
+		displayName = "Men (Desert)";
+	};
+	
 };
 
 class CfgVehicles
@@ -53,10 +59,6 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Wood";
-		class EventHandlers
-		{
-			init="[(_this select 0),""tfv_nor_flag_insignia""] call BIS_fnc_setUnitInsignia";
-		};
 	};
 };
 

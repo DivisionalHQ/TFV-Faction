@@ -11,7 +11,7 @@ class CfgPatches
 
 class cfgFactionClasses
 {
-	class TFV_Units
+	class tfv_units
 	{		
 		displayname="TF Valkyrie";
 		side=1;
