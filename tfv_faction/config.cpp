@@ -59,7 +59,7 @@ class CfgVehicles
 		identityTypes[]= {"LanguageENG_F","Head_EURO"};
 		author="TFV";
 		nakedUniform="U_BasicBody";
-		uniformClass = "TFV_Uniform_Officer";
+		uniformClass = "TFV_Uniform_Wood";
 		class EventHandlers
 		{
 			init="[(_this select 0),""tfv_nor_flag_insignia""] call BIS_fnc_setUnitInsignia";
