@@ -62,7 +62,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="TFV_Officer_Test_SL";
+			uniformClass="TFV_Officer_Base_Wood";
 			containerClass="Supply40";
 			mass=40;
 		};
