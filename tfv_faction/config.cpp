@@ -47,7 +47,7 @@ class CfgVehicles
 	class B_crew_F;
 	class B_spotter_F;
 	class B_soldier_exp_F;
-	class TFV_Officer_Base_Wood: B_Soldier_SL_F
+	class TFV_Officer_Test_SL: B_Soldier_SL_F
 	{
 		_generalMacro="B_Soldier_F";
 		scope=2;
