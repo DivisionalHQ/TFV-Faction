@@ -15,12 +15,12 @@ class CfgPatches
 class CfgVehicles
 {
 	class B_Soldier_F;
-	class TFV_Officer_Base_Wood: B_Soldier_F
+	class TFV_Uniform_Base_Wood: B_Soldier_F
 	{
 		scope=1;
 		scopeCurator=0;
 		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Officer";
+		uniformClass="TFV_Uniform_Wood";
 		hiddenSelections[]= {"Camo","insignia"};
 		hiddenSelectionsTextures[]= {"\tfv_uniform\data\uniforms\nor_indep_uniform_wood_co.paa"};
 		model="\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
