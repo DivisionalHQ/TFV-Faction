@@ -37,7 +37,7 @@ class cfgWeapons
 	class UniformItem;
 	class ItemInfo;
 	
-	class TFV_Uniform_Officer: Uniform_Base
+	class TFV_Uniform_Wood: Uniform_Base
 	{
 		author="TFV";
 		scope=2;
