@@ -35,6 +35,8 @@ class CfgVehicleClasses
 
 class CfgVehicles
 {
+	class I_soldier_F;
+	class I_officer_F;
 	class B_medic_F;
 	class B_Soldier_SL_F;
 	class B_Soldier_TL_F;
@@ -45,8 +47,6 @@ class CfgVehicles
 	class B_crew_F;
 	class B_spotter_F;
 	class B_soldier_exp_F;
-	class B_Soldier_F;
-	class I_officer_F;
 	
 		// Officer Base - WIP, must change uniform
 		class TFV_Officer_Base_Wood: B_Soldier_SL_F
