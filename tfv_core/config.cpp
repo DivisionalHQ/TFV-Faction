@@ -16,7 +16,7 @@ class cfgFactionClasses
 		displayname="TF Valkyrie";
 		side=1;
 		priority=2;
-		flag="\tfv_core\data\tfv_units_flag.paa";
-		icon="\tfv_core\data\tfv_units_icon.paa";
+		flag="\tfv_core\data\tfv_faction_flag.paa";
+		icon="\tfv_core\data\tfv_faction_icon.paa";
 	};
 };
