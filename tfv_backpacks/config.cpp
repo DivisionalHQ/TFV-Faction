@@ -25,19 +25,6 @@ class CfgVehicles
 		{
 			"\tfv_backpacks\data\nor_kitbag_wood_co.paa"
 		};
-		class TransportMagazines
-		{
-			class _xx_30Rnd_mas_556x45_Stanag
-			{
-				magazine="30Rnd_mas_556x45_Stanag";
-				count=3;
-			};
-			class _xx_30Rnd_556x45_Stanag_Tracer_Red
-			{
-				count=3;
-				magazine="30Rnd_556x45_Stanag_Tracer_Red";
-			};
-		};
 		class TransportItems
 		{
 			class _xx_itemCtab
