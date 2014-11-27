@@ -26,7 +26,7 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Desert";
+		uniformClass="TFV_Uniform_Wood";
 		hiddenSelections[]= {"Camo","insignia"};
 		hiddenSelectionsTextures[]= {"\tfv_uniform\data\uniforms\wood\nor_indep_uniform_wood_co.paa"};
 		model="\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
@@ -39,7 +39,7 @@ class CfgVehicles
 		modelsides[]={3,2,1,0};
 		uniformClass="TFV_Uniform_Desert";
 		hiddenSelections[]= {"Camo","insignia"};
-		hiddenSelectionsTextures[]= {"\tfv_uniform\data\uniforms\desert\nor_indep_uniform_wood_co.paa"};
+		hiddenSelectionsTextures[]= {"\tfv_uniform\data\uniforms\desert\nor_indep_uniform_desert_co.paa"};
 		model="\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
 	};
 	

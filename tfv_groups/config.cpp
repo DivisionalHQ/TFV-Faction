@@ -97,6 +97,80 @@ class CfgGroups
 						};				
 						
 					};
+					
+					class TFV_Desert
+					{
+						name = "Section (Desert)";
+						side = 1;
+						rarityGroup = 0.3;
+						faction = "TFV_Units";
+						
+						class Unit0
+						{
+						side = 1;
+						vehicle = "TFV_SL_Desert";
+						rank = "SERGEANT";
+						position[] = {0,5,0};
+						};
+						
+						class Unit1
+						{
+						side = 1;
+						vehicle = "TFV_FTL_Desert";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+						};
+						
+						class Unit2
+						{
+						side = 1;
+						vehicle = "TFV_Medic_Desert";
+						rank = "CORPORAL";
+						position[] = {5,0,0};
+						};
+						
+						class Unit3
+						{
+						side = 1;
+						vehicle = "TFV_MG1_Desert";
+						rank = "PRIVATE";
+						position[] = {7,0,0};
+						};
+						
+						class Unit4
+						{
+						side = 1;
+						vehicle = "TFV_MG2_Desert";
+						rank = "PRIVATE";
+						position[] = {9,0,0};
+						};
+						
+						class Unit5
+						{
+						side = 1;
+						vehicle = "TFV_Rifleman_Desert";
+						rank = "PRIVATE";
+						position[] = {12,0,0};
+						};
+					
+						class Unit6
+						{
+						side = 1;
+						vehicle = "TFV_AT_Desert";
+						rank = "PRIVATE";
+						position[] = {14,0,0};
+						};
+						
+						class Unit7
+						{
+						side = 1;
+						vehicle = "TFV_Grenadier_Desert";
+						rank = "PRIVATE";
+						position[] = {16,0,0};
+						};				
+						
+					};
+					
 				};
 			};
 		};

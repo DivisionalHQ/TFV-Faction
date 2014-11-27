@@ -61,6 +61,9 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Wood";
+		backpack = "TFV_Kitbag_Wood";
+		linkedItems[] = {"TFV_Vest_Standard_Wood"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Wood"};
 	};
 	
 		class TFV_FTL_Wood: B_Soldier_TL_F
