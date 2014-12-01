@@ -44,7 +44,7 @@ class cfgWeapons
 		_generalMacro="V_PlateCarrier1_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
-		displayName="TFV Standard Vest";
+		displayName="TFV Standard Vest - Pedersen";
 		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]={"\tfv_equip\data\vest\personal\TFV_Carrier_Pedersern.paa"};
 		author="TFV";
