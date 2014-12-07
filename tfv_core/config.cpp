@@ -20,3 +20,4 @@ class cfgFactionClasses
 		icon="\tfv_core\data\tfv_faction_icon.paa";
 	};
 };
+

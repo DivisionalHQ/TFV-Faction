@@ -18,6 +18,16 @@ class UniformSlotInfo
 	linkProxy = "-";
 };
 
+class CfgUnitInsignia
+{
+	class tfv_nor_flag_insignia
+	{
+		displayName="TFV_NOR_INSIGNIA";
+		texture="\tfv_uniform\data\insignias\nor_insg_flag_color_co.paa";
+		author="TFV";
+	};
+};
+
 class CfgVehicles
 {
 	class B_Soldier_F;
@@ -43,8 +53,31 @@ class CfgVehicles
 		model="\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
 	};
 	
+	//FNG Uniform Base
 	
-	//Personal Uniforms
+	class TFV_Uniform_Base_Wood_FNG: B_Soldier_F
+	{
+		scope=1;
+		scopeCurator=0;
+		modelsides[]={3,2,1,0};
+		uniformClass="TFV_Uniform_Wood_FNG";
+		hiddenSelections[]= {"Camo","insignia"};
+		hiddenSelectionsTextures[]= {"\tfv_uniform\data\uniforms\wood\FNG_Upper_Woodland_Normal.paa"};
+		model="\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
+	};
+	
+	class TFV_Uniform_Base_Desert_FNG: B_Soldier_F
+	{
+		scope=1;
+		scopeCurator=0;
+		modelsides[]={3,2,1,0};
+		uniformClass="TFV_Uniform_Desert";
+		hiddenSelections[]= {"Camo","insignia"};
+		hiddenSelectionsTextures[]={"\tfv_uniform\data\uniforms\desert\FNG_Upper_Desert_Normal.paa"};
+		model="\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
+	};
+	
+	//Personal Uniforms Base - Remember to create uniform below
 	
 	class TFV_Uniform_Base_Wood_Eklund: B_Soldier_F
 	{
@@ -62,7 +95,7 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Desert";
+		uniformClass="TFV_Uniform_Desert_Eklund";
 		hiddenSelections[]= {"Camo","insignia"};
 		hiddenSelectionsTextures[]=
 		{"\tfv_uniform\data\uniforms\desert\personal\Eklund_Upper_Desert_Normal.paa"};
@@ -85,7 +118,7 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Desert";
+		uniformClass="TFV_Uniform_Desert_Gjerde";
 		hiddenSelections[]= {"Camo","insignia"};
 		hiddenSelectionsTextures[]=
 		{"\tfv_uniform\data\uniforms\desert\personal\Gjerde_Upper_Desert_Normal.paa"};
@@ -108,7 +141,7 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Desert";
+		uniformClass="TFV_Uniform_Desert_Grepperud";
 		hiddenSelections[]= {"Camo","insignia"};
 		hiddenSelectionsTextures[]=
 		{"\tfv_uniform\data\uniforms\desert\personal\Grepperud_Upper_Desert_Normal.paa"};
@@ -131,7 +164,7 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Desert";
+		uniformClass="TFV_Uniform_Desert_Haagenrud";
 		hiddenSelections[]= {"Camo","insignia"};
 		hiddenSelectionsTextures[]=
 		{"\tfv_uniform\data\uniforms\desert\personal\Haagenrud_Upper_Desert_Normal.paa"};
@@ -154,7 +187,7 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Desert";
+		uniformClass="TFV_Uniform_Desert_Hanslien";
 		hiddenSelections[]= {"Camo","insignia"};
 		hiddenSelectionsTextures[]=
 		{"\tfv_uniform\data\uniforms\desert\personal\Hanslien_Upper_Desert_Normal.paa"};
@@ -177,7 +210,7 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Desert";
+		uniformClass="TFV_Uniform_Desert_Hofstad";
 		hiddenSelections[]= {"Camo","insignia"};
 		hiddenSelectionsTextures[]=
 		{"\tfv_uniform\data\uniforms\desert\personal\Hofstad_Upper_Desert_Normal.paa"};
@@ -200,7 +233,7 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Desert";
+		uniformClass="TFV_Uniform_Desert_Hoven";
 		hiddenSelections[]= {"Camo","insignia"};
 		hiddenSelectionsTextures[]=
 		{"\tfv_uniform\data\uniforms\desert\personal\Hoven_Upper_Desert_Normal.paa"};
@@ -223,7 +256,7 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Desert";
+		uniformClass="TFV_Uniform_Desert_Husby";
 		hiddenSelections[]= {"Camo","insignia"};
 		hiddenSelectionsTextures[]=
 		{"\tfv_uniform\data\uniforms\desert\personal\Husby_Upper_Desert_Normal.paa"};
@@ -246,7 +279,7 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Desert";
+		uniformClass="TFV_Uniform_Desert_Jensen";
 		hiddenSelections[]= {"Camo","insignia"};
 		hiddenSelectionsTextures[]=
 		{"\tfv_uniform\data\uniforms\desert\personal\Jensen_Upper_Desert_Normal.paa"};
@@ -269,7 +302,7 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Desert";
+		uniformClass="TFV_Uniform_Desert_Loberg";
 		hiddenSelections[]= {"Camo","insignia"};
 		hiddenSelectionsTextures[]=
 		{"\tfv_uniform\data\uniforms\desert\personal\Loberg_Upper_Desert_Normal.paa"};
@@ -292,7 +325,7 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Desert";
+		uniformClass="TFV_Uniform_Desert_Marthinsen";
 		hiddenSelections[]= {"Camo","insignia"};
 		hiddenSelectionsTextures[]=
 		{"\tfv_uniform\data\uniforms\desert\personal\Marthinsen_Upper_Desert_Normal.paa"};
@@ -316,7 +349,7 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Desert";
+		uniformClass="TFV_Uniform_Desert_Murvold";
 		hiddenSelections[]= {"Camo","insignia"};
 		hiddenSelectionsTextures[]=
 		{"\tfv_uniform\data\uniforms\desert\personal\Murvold_Upper_Desert_Normal.paa"};
@@ -339,7 +372,7 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Desert";
+		uniformClass="TFV_Uniform_Desert_Myklebust";
 		hiddenSelections[]= {"Camo","insignia"};
 		hiddenSelectionsTextures[]=
 		{"\tfv_uniform\data\uniforms\desert\personal\Myklebust_Upper_Desert_Normal.paa"};
@@ -362,7 +395,7 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Desert";
+		uniformClass="TFV_Uniform_Desert_Myrvang";
 		hiddenSelections[]= {"Camo","insignia"};
 		hiddenSelectionsTextures[]=
 		{"\tfv_uniform\data\uniforms\desert\personal\Myrvang_Upper_Desert_Normal.paa"};
@@ -385,7 +418,7 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Desert";
+		uniformClass="TFV_Uniform_Desert_Pedersen";
 		hiddenSelections[]= {"Camo","insignia"};
 		hiddenSelectionsTextures[]=
 		{"\tfv_uniform\data\uniforms\desert\personal\Pedersen_Upper_Desert_Normal.paa"};
@@ -408,7 +441,7 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Desert";
+		uniformClass="TFV_Uniform_Desert_Vedal";
 		hiddenSelections[]= {"Camo","insignia"};
 		hiddenSelectionsTextures[]=
 		{"\tfv_uniform\data\uniforms\desert\personal\Vedal_Upper_Desert_Normal.paa"};
@@ -431,7 +464,7 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Desert";
+		uniformClass="TFV_Uniform_Desert_Walkden";
 		hiddenSelections[]= {"Camo","insignia"};
 		hiddenSelectionsTextures[]=
 		{"\tfv_uniform\data\uniforms\desert\personal\Walkden_Upper_Desert_Normal.paa"};
@@ -483,6 +516,42 @@ class cfgWeapons
 		};
 	};
 
+	//FNG
+	class TFV_Uniform_Wood_FNG: Uniform_Base
+	{
+		author="TFV";
+		scope=2;
+		displayName="TFV Combat Uniform (Wood - FNG)";
+		picture = "\tfv_uniform\data\ui\nor_uniform_wood_icon_ca.paa"; 
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="TFV_Uniform_Base_Wood_FNG";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+		class TFV_Uniform_Desert_FNG: Uniform_Base
+	{
+		author="TFV";
+		scope=2;
+		displayName="TFV Combat Uniform (Desert - FNG)";
+		picture = "\tfv_uniform\data\ui\nor_uniform_desert_icon_ca.paa"; 
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="TFV_Uniform_Base_Desert_FNG";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 	
 	
 	//Personal Uniforms

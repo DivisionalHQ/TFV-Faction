@@ -61,9 +61,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Wood";
-		backpack = "TFV_Kitbag_Wood";
-		linkedItems[] = {"TFV_Vest_Standard_Wood"};
-		respawnLinkedItems[] = {"TFV_Vest_Standard_Wood"};
+		backpack = "TFV_Kitbag_Wood_Lead";
+		linkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_gl_a","hgun_mas_glocksf_F","Throw","Put","Rangefinder"};
+		respawnWeapons[] = {"arifle_mas_hk416_gl_a","hgun_mas_glocksf_F","Throw","Put","Rangefinder"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","1Rnd_HE_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed","UGL_FlareWhite_F","UGL_FlareWhite_F","UGL_FlareCIR_F","UGL_FlareCIR_F"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","1Rnd_HE_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed","UGL_FlareWhite_F","UGL_FlareWhite_F","UGL_FlareCIR_F","UGL_FlareCIR_F"};
 	};
 	
 		class TFV_FTL_Wood: B_Soldier_TL_F
@@ -79,6 +83,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Wood";
+		backpack = "TFV_Kitbag_Wood_Lead";
+		linkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_gl_a","hgun_mas_glocksf_F","Throw","Put","Rangefinder"};
+		respawnWeapons[] = {"arifle_mas_hk416_gl_a","hgun_mas_glocksf_F","Throw","Put","Rangefinder"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","1Rnd_HE_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed","UGL_FlareWhite_F","UGL_FlareWhite_F","UGL_FlareCIR_F","UGL_FlareCIR_F"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","1Rnd_HE_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed","UGL_FlareWhite_F","UGL_FlareWhite_F","UGL_FlareCIR_F","UGL_FlareCIR_F"};
 	};
 	
 	class TFV_Medic_Wood: B_medic_F
@@ -94,6 +105,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Wood";
+		backpack = "TFV_Backpack_Medic_Wood";
+		linkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 	};
 	
 	class TFV_MG1_Wood: B_soldier_AR_F
@@ -109,6 +127,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Wood";
+		backpack = "TFV_Kitbag_Wood";
+		linkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"LMG_mas_Mk48_F_t","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"LMG_mas_Mk48_F_t","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		Magazines[] = {"100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_T_Stanag","100Rnd_mas_762x51_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
+		respawnMagazines[] = {"100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_T_Stanag","100Rnd_mas_762x51_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 	};
 	
 	class TFV_MG2_Wood: B_soldier_AR_F
@@ -124,6 +149,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Wood";
+		backpack = "TFV_Kitbag_Wood";
+		linkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"LMG_mas_Mk48_F_t","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"LMG_mas_Mk48_F_t","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		Magazines[] = {"100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_T_Stanag","100Rnd_mas_762x51_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
+		respawnMagazines[] = {"100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_T_Stanag","100Rnd_mas_762x51_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 	};
 
 	class TFV_Rifleman_Wood: I_soldier_F
@@ -139,6 +171,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Wood";
+		backpack = "TFV_Kitbag_Wood";
+		linkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 	};
 	
 	class TFV_AT_Wood: B_soldier_AT_F
@@ -154,6 +193,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Wood";
+		backpack = "TFV_Kitbag_Wood_AT";
+		linkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","mas_launch_maaws_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","mas_launch_maaws_F","Throw","Put","Binocular"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 	};
 	
 	class TFV_Grenadier_Wood: I_soldier_F
@@ -169,6 +215,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Wood";
+		backpack = "TFV_Kitbag_Wood_Grenadier";
+		linkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_gl_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"arifle_mas_hk416_gl_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","1Rnd_HE_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed","UGL_FlareWhite_F","UGL_FlareWhite_F","UGL_FlareCIR_F","UGL_FlareCIR_F"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","1Rnd_HE_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed","UGL_FlareWhite_F","UGL_FlareWhite_F","UGL_FlareCIR_F","UGL_FlareCIR_F"};
 	};
 	
 	class TFV_CrewCO_Wood: B_crew_F
@@ -184,6 +237,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Wood";
+		backpack = "TFV_Kitbag_Wood";
+		linkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 	};
 	
 	class TFV_Crew_Wood: B_crew_F
@@ -199,6 +259,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Wood";
+		backpack = "TFV_Kitbag_Wood";
+		linkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 	};
 	
 	class TFV_HeliPilot_Wood: B_Pilot_F
@@ -214,6 +281,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Wood";
+		backpack = "TFV_Kitbag_Wood";
+		linkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 	};
 	
 	class TFV_HeliCrew_Wood: B_helicrew_F
@@ -229,6 +303,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Wood";
+		backpack = "TFV_Kitbag_Wood";
+		linkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 	};
 	
 	class TFV_JetPilot_Wood: B_Pilot_F
@@ -244,6 +325,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Wood";
+		backpack = "TFV_Kitbag_Wood";
+		linkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 	};
 	
 		class TFV_SL_Desert: B_Soldier_SL_F
@@ -259,6 +347,14 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Desert";
+		backpack = "TFV_Kitbag_Desert_Lead";
+		linkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_gl_a","hgun_mas_glocksf_F","Throw","Put","Rangefinder"};
+		respawnWeapons[] = {"arifle_mas_hk416_gl_a","hgun_mas_glocksf_F","Throw","Put","Rangefinder"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","1Rnd_HE_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed","UGL_FlareWhite_F","UGL_FlareWhite_F","UGL_FlareCIR_F","UGL_FlareCIR_F"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","1Rnd_HE_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed","UGL_FlareWhite_F","UGL_FlareWhite_F","UGL_FlareCIR_F","UGL_FlareCIR_F"};
+		
 	};
 	
 		class TFV_FTL_Desert: B_Soldier_TL_F
@@ -274,6 +370,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Desert";
+		backpack = "TFV_Kitbag_Desert_Lead";
+		linkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_gl_a","hgun_mas_glocksf_F","Throw","Put","Rangefinder"};
+		respawnWeapons[] = {"arifle_mas_hk416_gl_a","hgun_mas_glocksf_F","Throw","Put","Rangefinder"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","1Rnd_HE_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed","UGL_FlareWhite_F","UGL_FlareWhite_F","UGL_FlareCIR_F","UGL_FlareCIR_F"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","1Rnd_HE_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed","UGL_FlareWhite_F","UGL_FlareWhite_F","UGL_FlareCIR_F","UGL_FlareCIR_F"};
 	};
 	
 	class TFV_Medic_Desert: B_medic_F
@@ -289,6 +392,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Desert";
+		backpack = "TFV_Backpack_Medic_Desert";
+		linkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 	};
 	
 	class TFV_MG1_Desert: B_soldier_AR_F
@@ -304,6 +414,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Desert";
+		backpack = "TFV_Kitbag_Desert";
+		linkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"LMG_mas_Mk48_F_t","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"LMG_mas_Mk48_F_t","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		Magazines[] = {"100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_T_Stanag","100Rnd_mas_762x51_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
+		respawnMagazines[] = {"100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_T_Stanag","100Rnd_mas_762x51_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 	};
 	
 	class TFV_MG2_Desert: B_soldier_AR_F
@@ -319,6 +436,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Desert";
+		backpack = "TFV_Kitbag_Desert";
+		linkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"LMG_mas_Mk48_F_t","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"LMG_mas_Mk48_F_t","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		Magazines[] = {"100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_T_Stanag","100Rnd_mas_762x51_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
+		respawnMagazines[] = {"100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_Stanag","100Rnd_mas_762x51_T_Stanag","100Rnd_mas_762x51_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 	};
 
 	class TFV_Rifleman_Desert: I_soldier_F
@@ -334,6 +458,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Desert";
+		backpack = "TFV_Kitbag_Desert";
+		linkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 	};
 	
 	class TFV_AT_Desert: B_soldier_AT_F
@@ -349,6 +480,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Desert";
+		backpack = "TFV_Kitbag_Desert_AT";
+		linkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","mas_launch_maaws_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","mas_launch_maaws_F","Throw","Put","Binocular"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 	};
 	
 	class TFV_Grenadier_Desert: I_soldier_F
@@ -364,6 +502,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Desert";
+		backpack = "TFV_Kitbag_Desert_Grenadier";
+		linkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_gl_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"arifle_mas_hk416_gl_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","1Rnd_HE_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed","UGL_FlareWhite_F","UGL_FlareWhite_F","UGL_FlareCIR_F","UGL_FlareCIR_F"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","1Rnd_HE_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed","UGL_FlareWhite_F","UGL_FlareWhite_F","UGL_FlareCIR_F","UGL_FlareCIR_F"};
 	};
 	
 	class TFV_CrewCO_Desert: B_crew_F
@@ -379,6 +524,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Desert";
+		backpack = "TFV_Kitbag_Desert";
+		linkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 	};
 	
 	class TFV_Crew_Desert: B_crew_F
@@ -394,6 +546,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Desert";
+		backpack = "TFV_Kitbag_Desert";
+		linkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 	};
 	
 	class TFV_HeliPilot_Desert: B_Pilot_F
@@ -409,6 +568,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Desert";
+		backpack = "TFV_Kitbag_Desert";
+		linkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 	};
 	
 	class TFV_HeliCrew_Desert: B_helicrew_F
@@ -424,6 +590,13 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Desert";
+		backpack = "TFV_Kitbag_Desert";
+		linkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 	};
 	
 	class TFV_JetPilot_Desert: B_Pilot_F
@@ -439,8 +612,14 @@ class CfgVehicles
 		author="TFV";
 		nakedUniform="U_BasicBody";
 		uniformClass = "TFV_Uniform_Desert";
+		backpack = "TFV_Kitbag_Desert";
+		linkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","H_HelmetB_light","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 	};
-	
 	
 	
 };
