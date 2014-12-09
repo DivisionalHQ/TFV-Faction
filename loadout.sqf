@@ -4,19 +4,19 @@ _TFVWood = ["TFV_SL_Wood","TFV_FTL_Wood","TFV_Medic_Wood","TFV_MG1_Wood","TFV_MG
 
 _TFVDesert = ["TFV_SL_Desert","TFV_FTL_Desert","TFV_Medic_Desert","TFV_MG1_Desert","TFV_MG2_Desert","TFV_Rifleman_Desert","TFV_AT_Desert","TFV_Grenadier_Desert","TFV_CrewCO_Desert","TFV_Crew_Desert","TFV_HeliPilot_Desert","TFV_HeliCrew_Desert","TFV_JetPilot_Desert"];
 
-_TFVSquadLeader = 		["TFV_SL_Wood","TFV_SL_Desert"];
+_TFVSquadLeader = 			["TFV_SL_Wood","TFV_SL_Desert"];
 _TFVFireTeamLeader =		["TFV_FTL_Wood","TFV_FTL_Desert"];
-_TFVMedic = 			["TFV_Medic_Wood","TFV_Medic_Desert"];
+_TFVMedic = 				["TFV_Medic_Wood","TFV_Medic_Desert"];
 _TFVAutoRifleman1 = 		["TFV_MG1_Wood","TFV_MG1_Desert"];
-_TFVAutoRifleman2 =		["TFV_MG2_Wood","TFV_MG2_Desert"];
-_TFVRifleMan = 			["TFV_Rifleman_Wood","TFV_Rifleman_Desert"];
-_TFVAntiTank = 			["TFV_AT_Wood","TFV_AT_Desert"];
-_TFVGrenadier = 		["TFV_Grenadier_Wood","TFV_Grenadier_Desert"];
-_TFVCrewCommand = 		["TFV_CrewCO_Wood","TFV_CrewCO_Desert"];
-_TFVCrewMembers = 		["TFV_Crew_Wood","TFV_Crew_Desert"];
-_TFVHeliPilot = 		["TFV_HeliPilot_Wood","TFV_HeliPilot_Desert"];
-_TFVHeliCrew = 			["TFV_HeliCrew_Wood","TFV_HeliCrew_Desert"];
-_TFVJetPilot = 			["TFV_JetPilot_Wood","TFV_JetPilot_Desert"];
+_TFVAutoRifleman2 =			["TFV_MG2_Wood","TFV_MG2_Desert"];
+_TFVRifleMan = 				["TFV_Rifleman_Wood","TFV_Rifleman_Desert"];
+_TFVAntiTank = 				["TFV_AT_Wood","TFV_AT_Desert"];
+_TFVGrenadier = 			["TFV_Grenadier_Wood","TFV_Grenadier_Desert"];
+_TFVCrewCommand = 			["TFV_CrewCO_Wood","TFV_CrewCO_Desert"];
+_TFVCrewMembers = 			["TFV_Crew_Wood","TFV_Crew_Desert"];
+_TFVHeliPilot = 			["TFV_HeliPilot_Wood","TFV_HeliPilot_Desert"];
+_TFVHeliCrew = 				["TFV_HeliCrew_Wood","TFV_HeliCrew_Desert"];
+_TFVJetPilot = 				["TFV_JetPilot_Wood","TFV_JetPilot_Desert"];
 
 if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminate script
 
