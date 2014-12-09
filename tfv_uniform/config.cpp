@@ -553,8 +553,10 @@ class cfgWeapons
 		};
 	};
 	
+//Personal Uniforms
 	
-	//Personal Uniforms
+	//EKLUND------------------------------------------------------------------------------------------------	
+	
 	class TFV_Uniform_Wood_Eklund: Uniform_Base
 	{
 		author="TFV";
@@ -590,6 +592,8 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	
+	//GJERDE------------------------------------------------------------------------------------------------	
 	
 	class TFV_Uniform_Wood_Gjerde: Uniform_Base
 	{
@@ -627,6 +631,8 @@ class cfgWeapons
 		};
 	};
 	
+	//GREPPERUD------------------------------------------------------------------------------------------------	
+	
 		class TFV_Uniform_Wood_Grepperud: Uniform_Base
 	{
 		author="TFV";
@@ -662,6 +668,8 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	
+	//HAAGENRUD------------------------------------------------------------------------------------------------	
 	
 		class TFV_Uniform_Wood_Haagenrud: Uniform_Base
 	{
@@ -699,6 +707,8 @@ class cfgWeapons
 		};
 	};
 	
+	//HANSLIEN------------------------------------------------------------------------------------------------	
+	
 		class TFV_Uniform_Wood_Hanslien: Uniform_Base
 	{
 		author="TFV";
@@ -734,6 +744,8 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	
+	//HOFSTAD------------------------------------------------------------------------------------------------	
 
 		class TFV_Uniform_Wood_Hofstad: Uniform_Base
 	{
@@ -771,6 +783,8 @@ class cfgWeapons
 		};
 	};
 	
+	//HOVEN------------------------------------------------------------------------------------------------	
+	
 		class TFV_Uniform_Wood_Hoven: Uniform_Base
 	{
 		author="TFV";
@@ -806,6 +820,8 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	
+	//HUSBY------------------------------------------------------------------------------------------------	
 	
 		class TFV_Uniform_Wood_Husby: Uniform_Base
 	{
@@ -843,6 +859,8 @@ class cfgWeapons
 		};
 	};
 	
+	//JENSEN------------------------------------------------------------------------------------------------	
+	
 		class TFV_Uniform_Wood_Jensen: Uniform_Base
 	{
 		author="TFV";
@@ -878,6 +896,8 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	
+	//LOBERG------------------------------------------------------------------------------------------------	
 	
 		class TFV_Uniform_Wood_Loberg: Uniform_Base
 	{
@@ -915,6 +935,9 @@ class cfgWeapons
 		};
 	};
 	
+	
+	//MARTHINSEN------------------------------------------------------------------------------------------------	
+	
 		class TFV_Uniform_Wood_Marthinsen: Uniform_Base
 	{
 		author="TFV";
@@ -950,6 +973,8 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	
+	//MURVOLD------------------------------------------------------------------------------------------------	
 	
 		class TFV_Uniform_Wood_Murvold: Uniform_Base
 	{
@@ -987,6 +1012,8 @@ class cfgWeapons
 		};
 	};
 	
+	//MYKLEBUST------------------------------------------------------------------------------------------------	
+	
 		class TFV_Uniform_Wood_Myklebust: Uniform_Base
 	{
 		author="TFV";
@@ -1022,6 +1049,9 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	
+	
+	//MYRVANG------------------------------------------------------------------------------------------------	
 	
 		class TFV_Uniform_Wood_Myrvang: Uniform_Base
 	{
@@ -1059,6 +1089,8 @@ class cfgWeapons
 		};
 	};
 	
+	//PEDERSEN------------------------------------------------------------------------------------------------	
+	
 		class TFV_Uniform_Wood_Pedersen: Uniform_Base
 	{
 		author="TFV";
@@ -1094,6 +1126,8 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	
+	//VEDAL------------------------------------------------------------------------------------------------
 	
 		class TFV_Uniform_Wood_Vedal: Uniform_Base
 	{
@@ -1131,6 +1165,8 @@ class cfgWeapons
 		};
 	};
 	
+	//WALKDEN--------------------------------------------------------------------------------------------------
+	
 		class TFV_Uniform_Wood_Walkden: Uniform_Base
 	{
 		author="TFV";
@@ -1166,6 +1202,8 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	
+	
 	
 };
 
