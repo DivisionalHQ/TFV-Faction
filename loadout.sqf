@@ -5,9 +5,9 @@ _TFVWood = ["TFV_SL_Wood","TFV_FTL_Wood","TFV_Medic_Wood","TFV_MG1_Wood","TFV_MG
 _TFVDesert = ["TFV_SL_Desert","TFV_FTL_Desert","TFV_Medic_Desert","TFV_MG1_Desert","TFV_MG2_Desert","TFV_Rifleman_Desert","TFV_AT_Desert","TFV_Grenadier_Desert","TFV_CrewCO_Desert","TFV_Crew_Desert","TFV_HeliPilot_Desert","TFV_HeliCrew_Desert","TFV_JetPilot_Desert"];
 
 _TFVSquadLeader = 		["TFV_SL_Wood","TFV_SL_Desert"];
-_TFVFireTeamLeader =	["TFV_FTL_Wood","TFV_FTL_Desert"];
+_TFVFireTeamLeader =		["TFV_FTL_Wood","TFV_FTL_Desert"];
 _TFVMedic = 			["TFV_Medic_Wood","TFV_Medic_Desert"];
-_TFVAutoRifleman1 = 	["TFV_MG1_Wood","TFV_MG1_Desert"];
+_TFVAutoRifleman1 = 		["TFV_MG1_Wood","TFV_MG1_Desert"];
 _TFVAutoRifleman2 =		["TFV_MG2_Wood","TFV_MG2_Desert"];
 _TFVRifleMan = 			["TFV_Rifleman_Wood","TFV_Rifleman_Desert"];
 _TFVAntiTank = 			["TFV_AT_Wood","TFV_AT_Desert"];
@@ -23,24 +23,25 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 //GENERIC UNIFORM --------------------------------------------------------------
 	
 	//FNG-----------------------------------------------------------------------
-	if (((profilename find "Ravosk") != -1) && (typeOf _unit) in _TFVWood) then {
-	_unit forceAddUniform "TFV_Uniform_Wood_FNG";
-	_unit addVest "TFV_Vest_Standard_Wood_FNG";
+		if (((profilename find "Ravosk") != -1) && (typeOf _unit) in _TFVWood) then {
+		_unit forceAddUniform "TFV_Uniform_Wood_FNG";
+		_unit addVest "TFV_Vest_Standard_Wood_FNG";
 	};
 
 	if (((profilename find "Ravosk") != -1) && (typeOf _unit) in _TFVDesert) then {
-	_unit forceAddUniform "TFV_Uniform_Desert_FNG";
-	_unit addVest "TFV_Vest_Standard_Desert_FNG";
+		_unit forceAddUniform "TFV_Uniform_Desert_FNG";
+		_unit addVest "TFV_Vest_Standard_Desert_FNG";
 	};
 
 
 //PERSONAL UNIFORMS--------------------------------------------------------------
 
 	//EKLUND---------------------------------------------------------------------
-	if (((profilename find "Eklund") != -1) && (typeOf _unit) in _TFVWood) then {
-	_unit forceAddUniform "TFV_Uniform_Wood_Eklund";
-	_unit addVest "TFV_Vest_Standard_Wood_Eklund";
-	};
+		if (((profilename find "Eklund") != -1) && (typeOf _unit) in _TFVWood) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Wood_Eklund";
+			_unit addVest "TFV_Vest_Standard_Wood_Eklund";
+		};
 
 	if (((profilename find "Eklund") != -1) && (typeOf _unit) in _TFVDesert) then {
 	_unit forceAddUniform "TFV_Uniform_Desert_Eklund";
