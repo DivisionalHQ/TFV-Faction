@@ -16,14 +16,14 @@ class CfgPatches
 
 class cfgWeapons
 {
-	class V_PlateCarrier1_rgr;
+	class V_PlateCarrier2_rgr;
 	class VestItem;
 	
 	//Generic Vests
 	
-	class TFV_Vest_Standard_Wood: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Wood: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Wood";
@@ -32,18 +32,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Desert: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Desert: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Desert";
@@ -52,10 +52,10 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
@@ -64,9 +64,9 @@ class cfgWeapons
 	
 	// FNG Vests
 	
-	class TFV_Vest_Standard_Wood_FNG: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Wood_FNG: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Wood - FNG";
@@ -75,18 +75,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 
-			class TFV_Vest_Standard_Desert_FNG: V_PlateCarrier1_rgr
+			class TFV_Vest_Standard_Desert_FNG: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Desert - FNG";
@@ -95,10 +95,10 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
@@ -107,9 +107,9 @@ class cfgWeapons
 	
 	//Personal Vests Wood
 	
-	class TFV_Vest_Standard_Wood_Eklund: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Wood_Eklund: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Wood - Eklund";
@@ -118,18 +118,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Wood_Gjerde: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Wood_Gjerde: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Wood - Gjerde";
@@ -138,18 +138,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Wood_Grepperud: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Wood_Grepperud: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Wood - Grepperud";
@@ -158,18 +158,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Wood_Haagenrud: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Wood_Haagenrud: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Wood - Haagenrud";
@@ -178,18 +178,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Wood_Hanslien: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Wood_Hanslien: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Wood - Hanslien";
@@ -198,18 +198,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Wood_Hofstad: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Wood_Hofstad: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Wood - Hofstad";
@@ -218,18 +218,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Wood_Hoven: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Wood_Hoven: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Wood - Hoven";
@@ -238,18 +238,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Wood_Husby: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Wood_Husby: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Wood - Husby";
@@ -258,18 +258,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Wood_Jensen: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Wood_Jensen: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Wood - Jensen";
@@ -278,18 +278,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Wood_Loberg: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Wood_Loberg: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Wood - Loberg";
@@ -298,18 +298,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Wood_Marthinsen: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Wood_Marthinsen: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Wood - Marthinsen";
@@ -318,18 +318,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Wood_Murvold: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Wood_Murvold: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Wood - Murvold";
@@ -338,18 +338,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Wood_Myklebust: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Wood_Myklebust: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Wood - Myklebust";
@@ -358,18 +358,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Wood_Myrvang: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Wood_Myrvang: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Wood - Myrvang";
@@ -378,18 +378,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Wood_Pedersen: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Wood_Pedersen: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Wood - Pedersen";
@@ -398,18 +398,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Wood_Vedal: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Wood_Vedal: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Wood - Vedal";
@@ -418,18 +418,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Wood_Walkden: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Wood_Walkden: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Wood - Walkden";
@@ -438,10 +438,10 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
@@ -449,9 +449,9 @@ class cfgWeapons
 
 	//Personal Vests Desert	
 
-	class TFV_Vest_Standard_Desert_Eklund: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Desert_Eklund: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Desert - Eklund";
@@ -460,18 +460,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Desert_Gjerde: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Desert_Gjerde: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Desert - Gjerde";
@@ -480,18 +480,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Desert_Grepperud: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Desert_Grepperud: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Desert - Grepperud";
@@ -500,18 +500,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Desert_Haagenrud: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Desert_Haagenrud: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Desert - Haagenrud";
@@ -520,18 +520,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Desert_Hanslien: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Desert_Hanslien: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Desert - Hanslien";
@@ -540,18 +540,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Desert_Hofstad: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Desert_Hofstad: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Desert - Hofstad";
@@ -560,18 +560,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Desert_Hoven: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Desert_Hoven: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Desert - Hoven";
@@ -580,18 +580,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Desert_Husby: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Desert_Husby: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Desert - Husby";
@@ -600,18 +600,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Desert_Jensen: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Desert_Jensen: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Desert - Jensen";
@@ -620,18 +620,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Desert_Loberg: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Desert_Loberg: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Desert - Loberg";
@@ -640,18 +640,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Desert_Marthinsen: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Desert_Marthinsen: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Desert - Marthinsen";
@@ -660,18 +660,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Desert_Murvold: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Desert_Murvold: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Desert - Murvold";
@@ -680,18 +680,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Desert_Myklebust: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Desert_Myklebust: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Desert - Myklebust";
@@ -700,18 +700,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Desert_Myrvang: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Desert_Myrvang: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Desert - Myrvang";
@@ -720,18 +720,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Desert_Pedersen: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Desert_Pedersen: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Desert - Pedersen";
@@ -740,18 +740,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Desert_Vedal: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Desert_Vedal: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Desert - Vedal";
@@ -760,18 +760,18 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
 	};
 	
-	class TFV_Vest_Standard_Desert_Walkden: V_PlateCarrier1_rgr
+	class TFV_Vest_Standard_Desert_Walkden: V_PlateCarrier2_rgr
 	{
-		_generalMacro="V_PlateCarrier1_rgr";
+		_generalMacro="V_PlateCarrier2_rgr";
 		scope=2;
 		picture="\tfv_equip\data\vest\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
 		displayName="TFV Standard Vest Desert - Walkden";
@@ -780,10 +780,10 @@ class cfgWeapons
 		author="TFV";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			uniformModel="\A3\Characters_F\BLUFOR\equip_b_vest01";
 			containerClass="Supply140";
-			mass=60;
-			armor=20;
+			mass=80;
+			armor=30;
 			passThrough=0.5;
 			hiddenSelections[]= {"camo"};
 		};
