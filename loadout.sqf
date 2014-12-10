@@ -286,34 +286,35 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			removeGoggles _unit;
 	
 		comment "Add containers";
-			for "_i" from 1 to 2 do { _unit addItemToUniform "AGM_Bandage";};
-			for "_i" from 1 to 2 do { _unit addItemToUniform "RH_17Rnd_9x19_g17";};
+			for "_i" from 1 to 2 do {_unit addItemToUniform "AGM_Bandage";};
+			_unit addItemToUniform "AGM_IR_Strobe_Item";
+			for "_i" from 1 to 2 do {_unit addItemToUniform "RH_15Rnd_45cal_fnp";};
 			_unit addItemToVest "muzzle_mas_snds_M";
-			for "_i" from 1 to 5 do { _unit addItemToVest "AGM_CableTie";};
+			for "_i" from 1 to 5 do {_unit addItemToVest "AGM_CableTie";};
 			_unit addItemToVest "AGM_MapTools";
+			for "_i" from 1 to 5 do {_unit addItemToVest "AGM_Bandage";};
 			_unit addItemToVest "ItemcTab";
-			for "_i" from 1 to 2 do { _unit addItemToVest "HandGrenade";};
-			_unit addItemToVest "1Rnd_HE_Grenade_shell";
+			_unit addItemToVest "RH_gemtech45";
+			for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
 			_unit addItemToVest "1Rnd_SmokeGreen_Grenade_shell";
 			_unit addItemToVest "1Rnd_SmokeRed_Grenade_shell";
-			for "_i" from 1 to 2 do { _unit addItemToVest "SmokeShell";};
+			for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 			_unit addItemToVest "SmokeShellGreen";
 			_unit addItemToVest "SmokeShellRed";
-			for "_i" from 1 to 2 do { _unit addItemToVest "AGM_M84";};
-			for "_i" from 1 to 2 do { _unit addItemToVest "30Rnd_mas_556x45_Stanag";};
+			for "_i" from 1 to 8 do {_unit addItemToVest "30Rnd_mas_556x45_Stanag";};
 			_unit addBackpack "tf_rt1523g_big_bwmod";
-			_unit addItemToBackpack "caf_MNVG";
-			for "_i" from 1 to 2 do { _unit addItemToBackpack "UGL_FlareWhite_F";};
-			for "_i" from 1 to 2 do { _unit addItemToBackpack "UGL_FlareCIR_F";};
-			_unit addHeadgear "H_mas_it_beretn";
+			for "_i" from 1 to 5 do {_unit addItemToBackpack "AGM_CableTie";};
+			for "_i" from 1 to 5 do {_unit addItemToBackpack "AGM_Bandage";};
+			for "_i" from 1 to 2 do {_unit addItemToBackpack "UGL_FlareCIR_F";};
+			_unit addHeadgear "vdo_opscore_multicam_2_devgru_peltor";
 					
 		comment "Add weapons";
-			_unit addWeapon "arifle_mas_hk416_gl";
+			_unit addWeapon "arifle_mas_hk416_gl_v";
 			_unit addPrimaryWeaponItem "RH_peq2_top";
 			_unit addPrimaryWeaponItem "RH_ta31rco_2D";
-			_unit addWeapon "RH_g19t";
-			_unit addHandgunItem "RH_gemtech9";
-			_unit addHandgunItem "RH_M6X";
+			_unit addWeapon "RH_fnp45t";
+			_unit addHandgunItem "RH_X300";
+			_unit addHandgunItem "RH_docter";
 			_unit addWeapon "AGM_Vector";
 		
 		comment "Add items";
@@ -322,7 +323,8 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			_unit linkItem "tf_microdagr";
 			_unit linkItem "ItemRadio";
 			_unit linkItem "ItemGPS";
-	
+			_unit linkItem "NVGoggles_mas_mask2_t";
+			
 		comment "Set identity";
 			[_unit,"NOR_Insignia_viking_BW"] call bis_fnc_setUnitInsignia;
 	
@@ -334,53 +336,56 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	if ((typeOf _unit) in _TFVFireTeamLeader) then {
 	
 	comment "Remove existing items";
-		removeAllWeapons _unit;
-		removeAllItems _unit;
-		removeAllAssignedItems _unit;
-		removeBackpack _unit;
-		removeHeadgear _unit;
-		removeGoggles _unit;
+			removeAllWeapons _unit;
+			removeAllItems _unit;
+			removeAllAssignedItems _unit;
+			removeBackpack _unit;
+			removeHeadgear _unit;
+			removeGoggles _unit;
 	
-	comment "Add containers";
-		for "_i" from 1 to 2 do { _unit addItemToUniform "AGM_Bandage";};
-		for "_i" from 1 to 2 do { _unit addItemToUniform "RH_17Rnd_9x19_g17";};
-		_unit addItemToVest "muzzle_mas_snds_M";
-		for "_i" from 1 to 5 do { _unit addItemToVest "AGM_CableTie";};
-		_unit addItemToVest "AGM_MapTools";
-		_unit addItemToVest "ItemcTab";
-		for "_i" from 1 to 2 do { _unit addItemToVest "HandGrenade";};
-		_unit addItemToVest "1Rnd_HE_Grenade_shell";
-		_unit addItemToVest "1Rnd_SmokeGreen_Grenade_shell";
-		_unit addItemToVest "1Rnd_SmokeRed_Grenade_shell";
-		for "_i" from 1 to 2 do { _unit addItemToVest "SmokeShell";};
-		_unit addItemToVest "SmokeShellGreen";
-		_unit addItemToVest "SmokeShellRed";
-		for "_i" from 1 to 2 do { _unit addItemToVest "AGM_M84";};
-		for "_i" from 1 to 2 do { _unit addItemToVest "30Rnd_mas_556x45_Stanag";};
-		_unit addBackpack "tf_rt1523g_big_bwmod";
-		_unit addItemToBackpack "caf_MNVG";
-		for "_i" from 1 to 2 do { _unit addItemToBackpack "UGL_FlareWhite_F";};
-		for "_i" from 1 to 2 do { _unit addItemToBackpack "UGL_FlareCIR_F";};
-		_unit addHeadgear "H_mas_it_beretn";
+		comment "Add containers";
+			for "_i" from 1 to 2 do {_unit addItemToUniform "AGM_Bandage";};
+			_unit addItemToUniform "AGM_IR_Strobe_Item";
+			for "_i" from 1 to 2 do {_unit addItemToUniform "RH_15Rnd_45cal_fnp";};
+			_unit addItemToVest "muzzle_mas_snds_M";
+			for "_i" from 1 to 5 do {_unit addItemToVest "AGM_CableTie";};
+			_unit addItemToVest "AGM_MapTools";
+			for "_i" from 1 to 5 do {_unit addItemToVest "AGM_Bandage";};
+			_unit addItemToVest "ItemcTab";
+			_unit addItemToVest "RH_gemtech45";
+			for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
+			_unit addItemToVest "1Rnd_SmokeGreen_Grenade_shell";
+			_unit addItemToVest "1Rnd_SmokeRed_Grenade_shell";
+			for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
+			_unit addItemToVest "SmokeShellGreen";
+			_unit addItemToVest "SmokeShellRed";
+			for "_i" from 1 to 8 do {_unit addItemToVest "30Rnd_mas_556x45_Stanag";};
+			_unit addBackpack "tf_rt1523g_big_bwmod";
+			for "_i" from 1 to 5 do {_unit addItemToBackpack "AGM_CableTie";};
+			for "_i" from 1 to 5 do {_unit addItemToBackpack "AGM_Bandage";};
+			for "_i" from 1 to 2 do {_unit addItemToBackpack "UGL_FlareCIR_F";};
+			_unit addHeadgear "vdo_opscore_multicam_2_devgru_peltor";
 					
-	comment "Add weapons";
-		_unit addWeapon "arifle_mas_hk416_gl";
-		_unit addPrimaryWeaponItem "RH_peq2_top";
-		_unit addPrimaryWeaponItem "RH_ta31rco_2D";
-		_unit addWeapon "RH_g19t";
-		_unit addHandgunItem "RH_gemtech9";
-		_unit addHandgunItem "RH_M6X";
-		_unit addWeapon "AGM_Vector";
+		comment "Add weapons";
+			_unit addWeapon "arifle_mas_hk416_gl_v";
+			_unit addPrimaryWeaponItem "RH_peq2_top";
+			_unit addPrimaryWeaponItem "RH_ta31rco_2D";
+			_unit addWeapon "RH_fnp45t";
+			_unit addHandgunItem "RH_X300";
+			_unit addHandgunItem "RH_docter";
+			_unit addWeapon "AGM_Vector";
+		
+		comment "Add items";
+			_unit linkItem "ItemMap";
+			_unit linkItem "ItemCompass";
+			_unit linkItem "tf_microdagr";
+			_unit linkItem "ItemRadio";
+			_unit linkItem "ItemGPS";
+			_unit linkItem "NVGoggles_mas_mask2_t";
+			
+		comment "Set identity";
+			[_unit,"NOR_Insignia_viking_BW"] call bis_fnc_setUnitInsignia;
 	
-	comment "Add items";
-		_unit linkItem "ItemMap";
-		_unit linkItem "ItemCompass";
-		_unit linkItem "tf_microdagr";
-		_unit linkItem "ItemRadio";
-		_unit linkItem "ItemGPS";
-	
-	comment "Set identity";
-		[_unit,"NOR_Insignia_viking_BW"] call bis_fnc_setUnitInsignia;
 	};
 
 //MEDIC-------------------------------------------------------------------------------
