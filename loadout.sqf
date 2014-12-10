@@ -640,3 +640,54 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		comment "Set insignia";
 			[_unit,"NOR_Insignia_viking_BW"] call bis_fnc_setUnitInsignia;
 	};
+
+//ANTI-TANK-----------------------------------------------------------
+	if ((typeOf _unit) in _TFVAntiTank) then 
+	{
+	
+		comment "Remove existing items";
+			removeAllWeapons _unit;
+			removeAllItems _unit;
+			removeAllAssignedItems _unit;
+			removeUniform _unit;
+			removeVest _unit;
+			removeBackpack _unit;
+			removeHeadgear _unit;
+			removeGoggles _unit;
+	
+		comment "Add containers";
+			for "_i" from 1 to 2 do {_unit addItemToUniform "AGM_Bandage";};
+			_unit addItemToUniform "AGM_IR_Strobe_Item";
+			for "_i" from 1 to 2 do {_unit addItemToUniform "RH_15Rnd_45cal_fnp";};
+			for "_i" from 1 to 5 do {_unit addItemToVest "AGM_CableTie";};
+			_unit addItemToVest "muzzle_mas_snds_M";
+			_unit addItemToVest "RH_gemtech45";
+			_unit addItemToVest "HandGrenade";
+			for "_i" from 1 to 4 do {_unit addItemToVest "SmokeShell";};
+			for "_i" from 1 to 6 do {_unit addItemToVest "30Rnd_mas_556x45_Stanag";};
+			_unit addBackpack "NOR_Carryall_Wood";
+			_unit addItemToBackpack "STI_84MM_HEAT";
+			_unit addHeadgear "vdo_opscore_green_2_peltor";
+			_unit addGoggles "Pomi_Goggles_Grn";
+					
+		comment "Add weapons";
+			_unit addWeapon "arifle_mas_m4c";
+			_unit addPrimaryWeaponItem "RH_peq2_top";
+			_unit addPrimaryWeaponItem "FHQ_optic_AIM";
+			_unit addWeapon "STI_MAAWS";
+			_unit addWeapon "RH_fnp45t";
+			_unit addHandgunItem "RH_X300";
+			_unit addHandgunItem "RH_docter";
+			_unit addWeapon "Binocular";
+		
+		comment "Add items";
+				_unit linkItem "ItemMap";
+				_unit linkItem "ItemCompass";
+				_unit linkItem "tf_microdagr";
+				_unit linkItem "ItemRadio";
+				_unit linkItem "ItemGPS";
+				_unit linkItem "NVGoggles_mas_mask2_t";
+	
+		comment "Set insignia";
+			[_unit,"NOR_Insignia_viking_BW"] call bis_fnc_setUnitInsignia;
+	};
