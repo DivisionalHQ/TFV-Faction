@@ -600,38 +600,38 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			removeGoggles _unit;
 	
 		comment "Add containers";
-				for "_i" from 1 to 2 do {_unit addItemToUniform "AGM_Bandage";};
-				_unit addItemToUniform "AGM_Clacker";
-				_unit addItemToUniform "AGM_IR_Strobe_Item";
-				for "_i" from 1 to 2 do {_unit addItemToUniform "RH_17Rnd_9x19_g17";};
-				for "_i" from 1 to 5 do {_unit addItemToVest "AGM_CableTie";};
-				_unit addItemToVest "RH_gemtech9";
-				_unit addItemToVest "muzzle_MK18D_L";
-				for "_i" from 1 to 6 do {_unit addItemToVest "SmokeShell";};
-				for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
-				for "_i" from 1 to 7 do {_unit addItemToVest "30Rnd_556x45_Stanag";};
-				_unit addBackpack "NOR_Carryall_Wood";
-				_unit addItemToBackpack "MineDetector";
-				for "_i" from 1 to 4 do {_unit addItemToBackpack "DemoCharge_Remote_Mag";};
-				_unit addItemToBackpack "ClaymoreDirectionalMine_Remote_Mag";
-				_unit addHeadgear "vdo_opscore_multicam_2_devgru_peltor";
-				_unit addGoggles "Pomi_Goggles_Snd";
+			for "_i" from 1 to 2 do {_unit addItemToUniform "AGM_Bandage";};
+			_unit addItemToUniform "AGM_Clacker";
+			_unit addItemToUniform "AGM_IR_Strobe_Item";
+			for "_i" from 1 to 2 do {_unit addItemToUniform "RH_17Rnd_9x19_g17";};
+			for "_i" from 1 to 5 do {_unit addItemToVest "AGM_CableTie";};
+			_unit addItemToVest "RH_gemtech9";
+			_unit addItemToVest "muzzle_MK18D_L";
+			for "_i" from 1 to 6 do {_unit addItemToVest "SmokeShell";};
+			for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
+			for "_i" from 1 to 7 do {_unit addItemToVest "30Rnd_556x45_Stanag";};
+			_unit addBackpack "NOR_Carryall_Wood";
+			_unit addItemToBackpack "MineDetector";
+			for "_i" from 1 to 4 do {_unit addItemToBackpack "DemoCharge_Remote_Mag";};
+			_unit addItemToBackpack "ClaymoreDirectionalMine_Remote_Mag";
+			_unit addHeadgear "vdo_opscore_multicam_2_devgru_peltor";
+			_unit addGoggles "Pomi_Goggles_Snd";
 					
 		comment "Add weapons";
-				_unit addWeapon "RHARD_MK18AFG_F";
-				_unit addPrimaryWeaponItem "PEQ15_A3_Top";
-				_unit addPrimaryWeaponItem "FHQ_optic_AIM";
-				_unit addWeapon "RH_g19t";
-				_unit addHandgunItem "RH_M6X";
-				_unit addWeapon "Binocular";
+			_unit addWeapon "RHARD_MK18AFG_F";
+			_unit addPrimaryWeaponItem "PEQ15_A3_Top";
+			_unit addPrimaryWeaponItem "FHQ_optic_AIM";
+			_unit addWeapon "RH_g19t";
+			_unit addHandgunItem "RH_M6X";
+			_unit addWeapon "Binocular";
 		
 		comment "Add items";
-				_unit linkItem "ItemMap";
-				_unit linkItem "ItemCompass";
-				_unit linkItem "tf_microdagr";
-				_unit linkItem "ItemRadio";
-				_unit linkItem "ItemGPS";
-				_unit linkItem "NVGoggles_mas_mask2_t";
+			_unit linkItem "ItemMap";
+			_unit linkItem "ItemCompass";
+			_unit linkItem "tf_microdagr";
+			_unit linkItem "ItemRadio";
+			_unit linkItem "ItemGPS";
+			_unit linkItem "NVGoggles_mas_mask2_t";
 	
 		comment "Set insignia";
 			[_unit,"NOR_Insignia_viking_BW"] call bis_fnc_setUnitInsignia;
@@ -675,12 +675,12 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			_unit addWeapon "Binocular";
 		
 		comment "Add items";
-				_unit linkItem "ItemMap";
-				_unit linkItem "ItemCompass";
-				_unit linkItem "tf_microdagr";
-				_unit linkItem "ItemRadio";
-				_unit linkItem "ItemGPS";
-				_unit linkItem "NVGoggles_mas_mask2_t";
+			_unit linkItem "ItemMap";
+			_unit linkItem "ItemCompass";
+			_unit linkItem "tf_microdagr";
+			_unit linkItem "ItemRadio";
+			_unit linkItem "ItemGPS";
+			_unit linkItem "NVGoggles_mas_mask2_t";
 	
 		comment "Set insignia";
 			[_unit,"NOR_Insignia_viking_BW"] call bis_fnc_setUnitInsignia;
@@ -730,12 +730,12 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			_unit addWeapon "AGM_Vector";
 		
 		comment "Add items";
-				_unit linkItem "ItemMap";
-				_unit linkItem "ItemCompass";
-				_unit linkItem "tf_microdagr";
-				_unit linkItem "ItemRadio";
-				_unit linkItem "ItemGPS";
-				_unit linkItem "NVGoggles_mas_mask_t";
+			_unit linkItem "ItemMap";
+			_unit linkItem "ItemCompass";
+			_unit linkItem "tf_microdagr";
+			_unit linkItem "ItemRadio";
+			_unit linkItem "ItemGPS";
+			_unit linkItem "NVGoggles_mas_mask_t";
 	
 		comment "Set insignia";
 			[_unit,"NOR_Insignia_viking_BW"] call bis_fnc_setUnitInsignia;
@@ -787,12 +787,12 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			_unit addWeapon "AGM_Vector";
 		
 		comment "Add items";
-				_unit linkItem "ItemMap";
-				_unit linkItem "ItemCompass";
-				_unit linkItem "tf_microdagr";
-				_unit linkItem "ItemRadio";
-				_unit linkItem "ItemGPS";
-				_unit linkItem "NVGoggles_mas_mask_t";
+			_unit linkItem "ItemMap";
+			_unit linkItem "ItemCompass";
+			_unit linkItem "tf_microdagr";
+			_unit linkItem "ItemRadio";
+			_unit linkItem "ItemGPS";
+			_unit linkItem "NVGoggles_mas_mask_t";
 	
 		comment "Set insignia";
 			[_unit,"NOR_Insignia_viking_BW"] call bis_fnc_setUnitInsignia;
