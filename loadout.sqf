@@ -5,9 +5,9 @@ _TFVWood = ["TFV_SL_Wood","TFV_FTL_Wood","TFV_Medic_Wood","TFV_MG1_Wood","TFV_MG
 _TFVDesert = ["TFV_SL_Desert","TFV_FTL_Desert","TFV_Medic_Desert","TFV_MG1_Desert","TFV_MG2_Desert","TFV_Rifleman_Desert","TFV_AT_Desert","TFV_Grenadier_Desert","TFV_CrewCO_Desert","TFV_Crew_Desert","TFV_HeliPilot_Desert","TFV_HeliCrew_Desert","TFV_JetPilot_Desert"];
 
 _TFVSquadLeader = 			["TFV_SL_Wood","TFV_SL_Desert"];
-_TFVFireTeamLeader =		["TFV_FTL_Wood","TFV_FTL_Desert"];
+_TFVFireTeamLeader =			["TFV_FTL_Wood","TFV_FTL_Desert"];
 _TFVMedic = 				["TFV_Medic_Wood","TFV_Medic_Desert"];
-_TFVAutoRifleman1 = 		["TFV_MG1_Wood","TFV_MG1_Desert"];
+_TFVAutoRifleman1 = 			["TFV_MG1_Wood","TFV_MG1_Desert"];
 _TFVAutoRifleman2 =			["TFV_MG2_Wood","TFV_MG2_Desert"];
 _TFVRifleMan = 				["TFV_Rifleman_Wood","TFV_Rifleman_Desert"];
 _TFVAntiTank = 				["TFV_AT_Wood","TFV_AT_Desert"];
@@ -20,18 +20,20 @@ _TFVJetPilot = 				["TFV_JetPilot_Wood","TFV_JetPilot_Desert"];
 
 if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminate script
 
-//GENERIC UNIFORM --------------------------------------------------------------
+//FNG --------------------------------------------------------------
 	
-	//FNG-----------------------------------------------------------------------
-		if (((profilename find "Ravosk") != -1) && (typeOf _unit) in _TFVWood) then {
-		_unit forceAddUniform "TFV_Uniform_Wood_FNG";
-		_unit addVest "TFV_Vest_Standard_Wood_FNG";
-	};
+	//RAVOSK-----------------------------------------------------------------------
+		if (((profilename find "Ravosk") != -1) && (typeOf _unit) in _TFVWood) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Wood_FNG";
+			_unit addVest "TFV_Vest_Standard_Wood_FNG";
+		};
 
-	if (((profilename find "Ravosk") != -1) && (typeOf _unit) in _TFVDesert) then {
-		_unit forceAddUniform "TFV_Uniform_Desert_FNG";
-		_unit addVest "TFV_Vest_Standard_Desert_FNG";
-	};
+		if (((profilename find "Ravosk") != -1) && (typeOf _unit) in _TFVDesert) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Desert_FNG";
+			_unit addVest "TFV_Vest_Standard_Desert_FNG";
+		};
 
 
 //PERSONAL UNIFORMS--------------------------------------------------------------
@@ -43,252 +45,287 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			_unit addVest "TFV_Vest_Standard_Wood_Eklund";
 		};
 
-	if (((profilename find "Eklund") != -1) && (typeOf _unit) in _TFVDesert) then {
-	_unit forceAddUniform "TFV_Uniform_Desert_Eklund";
-	_unit addVest "TFV_Vest_Standard_Desert_Eklund";
-	};
+		if (((profilename find "Eklund") != -1) && (typeOf _unit) in _TFVDesert) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Desert_Eklund";
+			_unit addVest "TFV_Vest_Standard_Desert_Eklund";
+		};
  
 	//GJERDE---------------------------------------------------------------------
-	if (((profilename find "Gjerde") != -1) && (typeOf _unit) in _TFVWood) then {
-		_unit forceAddUniform "TFV_Uniform_Wood_Gjerde";
-		_unit addVest "TFV_Vest_Standard_Wood_Gjerde";
+		if (((profilename find "Gjerde") != -1) && (typeOf _unit) in _TFVWood) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Wood_Gjerde";
+			_unit addVest "TFV_Vest_Standard_Wood_Gjerde";
 		};
 		
-	if (((profilename find "Gjerde") != -1) && (typeOf _unit) in _TFVDesert) then {
-		_unit forceAddUniform "TFV_Uniform_Desert_Gjerde";
-		_unit addVest "TFV_Vest_Standard_Desert_Gjerde";
+		if (((profilename find "Gjerde") != -1) && (typeOf _unit) in _TFVDesert) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Desert_Gjerde";
+			_unit addVest "TFV_Vest_Standard_Desert_Gjerde";
 		};
 	
 	//GREPPERUD---------------------------------------------------------------------
-	if (((profilename find "Grepperud") != -1) && (typeOf _unit) in _TFVWood) then {
-	_unit forceAddUniform "TFV_Uniform_Wood_Grepperud";
-	_unit addVest "TFV_Vest_Standard_Wood_Grepperud";
-	};
+		if (((profilename find "Grepperud") != -1) && (typeOf _unit) in _TFVWood) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Wood_Grepperud";
+			_unit addVest "TFV_Vest_Standard_Wood_Grepperud";
+		};
 	
-	if (((profilename find "Grepperud") != -1) && (typeOf _unit) in _TFVDesert) then {
-	_unit forceAddUniform "TFV_Uniform_Desert_Grepperud";
-	_unit addVest "TFV_Vest_Standard_Desert_Grepperud";
-	};
+		if (((profilename find "Grepperud") != -1) && (typeOf _unit) in _TFVDesert) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Desert_Grepperud";
+			_unit addVest "TFV_Vest_Standard_Desert_Grepperud";
+		};
 
 	//HAAGENRUD----------------------------------------------------------------------
  
-	if (((profilename find "Haagenrud") != -1) && (typeOf _unit) in _TFVWood) then {
-	_unit forceAddUniform "TFV_Uniform_Wood_Haagenrud";
-	_unit addVest "TFV_Vest_Standard_Wood_Haagenrud";
-	};
+		if (((profilename find "Haagenrud") != -1) && (typeOf _unit) in _TFVWood) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Wood_Haagenrud";
+			_unit addVest "TFV_Vest_Standard_Wood_Haagenrud";
+		};
 
-	if (((profilename find "Haagenrud") != -1) && (typeOf _unit) in _TFVDesert) then {
-	_unit forceAddUniform "TFV_Uniform_Desert_Haagenrud";
-	_unit addVest "TFV_Vest_Standard_Desert_Haagenrud";
-	};
-	
-	//
+		if (((profilename find "Haagenrud") != -1) && (typeOf _unit) in _TFVDesert) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Desert_Haagenrud";
+			_unit addVest "TFV_Vest_Standard_Desert_Haagenrud";
+		};
  
 	//HANSLIEN---------------------------------------------------------------------
-	if (((profilename find "Hanslien") != -1) && (typeOf _unit) in _TFVWood) then {
-	_unit forceAddUniform "TFV_Uniform_Wood_Hanslien";
-	_unit addVest "TFV_Vest_Standard_Wood_Hanslien";
-	};
+		if (((profilename find "Hanslien") != -1) && (typeOf _unit) in _TFVWood) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Wood_Hanslien";
+			_unit addVest "TFV_Vest_Standard_Wood_Hanslien";
+		};
 	
-	if (((profilename find "Hanslien") != -1) && (typeOf _unit) in _TFVDesert) then {
-	_unit forceAddUniform "TFV_Uniform_Desert_Hanslien";
-	_unit addVest "TFV_Vest_Standard_Desert_Hanslien";
-	};
+		if (((profilename find "Hanslien") != -1) && (typeOf _unit) in _TFVDesert) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Desert_Hanslien";
+			_unit addVest "TFV_Vest_Standard_Desert_Hanslien";
+		};
 	
 	//HOFSTAD----------------------------------------------------------------------
  
-	if (((profilename find "Hofstad") != -1) && (typeOf _unit) in _TFVWood) then {
-	_unit forceAddUniform "TFV_Uniform_Wood_Hofstad";
-	_unit addVest "TFV_Vest_Standard_Wood_Hofstad";
-	};
+		if (((profilename find "Hofstad") != -1) && (typeOf _unit) in _TFVWood) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Wood_Hofstad";
+			_unit addVest "TFV_Vest_Standard_Wood_Hofstad";
+		};
 
-	 if (((profilename find "Hofstad") != -1) && (typeOf _unit) in _TFVDesert) then {
-	_unit forceAddUniform "TFV_Uniform_Desert_Hofstad";
-	_unit addVest "TFV_Vest_Standard_Desert_Hofstad";
-	};
+		 if (((profilename find "Hofstad") != -1) && (typeOf _unit) in _TFVDesert) then {
+			_unit forceAddUniform "TFV_Uniform_Desert_Hofstad";
+			_unit addVest "TFV_Vest_Standard_Desert_Hofstad";
+		};
 
 	//VAN HOVEN----------------------------------------------------------------------
  
-	if (((profilename find "Hoven") != -1) && (typeOf _unit) in _TFVWood) then {
-	_unit forceAddUniform "TFV_Uniform_Wood_Hoven";
-	_unit addVest "TFV_Vest_Standard_Wood_Hoven";
-	};
+		if (((profilename find "Hoven") != -1) && (typeOf _unit) in _TFVWood) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Wood_Hoven";
+			_unit addVest "TFV_Vest_Standard_Wood_Hoven";
+		};
 	
-	 if (((profilename find "Hoven") != -1) && (typeOf _unit) in _TFVDesert) then {
-	_unit forceAddUniform "TFV_Uniform_Desert_Hoven";
-	_unit addVest "TFV_Vest_Standard_Desert_Hoven";
-	};
+		 if (((profilename find "Hoven") != -1) && (typeOf _unit) in _TFVDesert) then 
+	 	{
+			_unit forceAddUniform "TFV_Uniform_Desert_Hoven";
+			_unit addVest "TFV_Vest_Standard_Desert_Hoven";
+		};
 
 	//HUSBY----------------------------------------------------------------------
-	if (((profilename find "Husby") != -1) && (typeOf _unit) in _TFVWood) then {
-	_unit forceAddUniform "TFV_Uniform_Wood_Husby";
-	_unit addVest "TFV_Vest_Standard_Wood_Husby";
-	};
+	
+		if (((profilename find "Husby") != -1) && (typeOf _unit) in _TFVWood) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Wood_Husby";
+			_unit addVest "TFV_Vest_Standard_Wood_Husby";
+		};
 
-	if (((profilename find "Husby") != -1) && (typeOf _unit) in _TFVDesert) then {
-	_unit forceAddUniform "TFV_Uniform_Desert_Husby";
-	_unit addVest "TFV_Vest_Standard_Desert_Husby";
-	};
+		if (((profilename find "Husby") != -1) && (typeOf _unit) in _TFVDesert) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Desert_Husby";
+			_unit addVest "TFV_Vest_Standard_Desert_Husby";
+		};
  
 	//JENSEN----------------------------------------------------------------------
-	if (((profilename find "Jensen") != -1) && (typeOf _unit) in _TFVWood) then {
-	_unit forceAddUniform "TFV_Uniform_Wood_Jensen";
-	_unit addVest "TFV_Vest_Standard_Wood_Jensen";
-	};
+	
+		if (((profilename find "Jensen") != -1) && (typeOf _unit) in _TFVWood) then
+		{
+			_unit forceAddUniform "TFV_Uniform_Wood_Jensen";
+			_unit addVest "TFV_Vest_Standard_Wood_Jensen";
+		};
  
-	if (((profilename find "Jensen") != -1) && (typeOf _unit) in _TFVDesert) then {
-	_unit forceAddUniform "TFV_Uniform_Desert_Jensen";
-	_unit addVest "TFV_Vest_Standard_Desert_Jensen";
-	};
+		if (((profilename find "Jensen") != -1) && (typeOf _unit) in _TFVDesert) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Desert_Jensen";
+			_unit addVest "TFV_Vest_Standard_Desert_Jensen";
+		};
  
 	//LØBERG----------------------------------------------------------------------
-	if (((profilename find "Løberg") != -1) && (typeOf _unit) in _TFVWood) then {
-	_unit forceAddUniform "TFV_Uniform_Wood_Loberg";
-	_unit addVest "TFV_Vest_Standard_Wood_Loberg";
-	};
 	
-	 if (((profilename find "Løberg") != -1) && (typeOf _unit) in _TFVDesert) then {
-	_unit forceAddUniform "TFV_Uniform_Desert_Loberg";
-	_unit addVest "TFV_Vest_Standard_Desert_Loberg";
-	};
+		if (((profilename find "Løberg") != -1) && (typeOf _unit) in _TFVWood) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Wood_Loberg";
+			_unit addVest "TFV_Vest_Standard_Wood_Loberg";
+		};
+	
+		if (((profilename find "Løberg") != -1) && (typeOf _unit) in _TFVDesert) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Desert_Loberg";
+			_unit addVest "TFV_Vest_Standard_Desert_Loberg";
+		};
 
 	//MARTHINSEN----------------------------------------------------------------------
 	
-	 if (((profilename find "Marthinsen") != -1) && (typeOf _unit) in _TFVDesert) then {
-	_unit forceAddUniform "TFV_Uniform_Desert_Marthinsen";
-	_unit addVest "TFV_Vest_Standard_Desert_Marthinsen";
-	};
+	 	if (((profilename find "Marthinsen") != -1) && (typeOf _unit) in _TFVDesert) then 
+	 	{
+			_unit forceAddUniform "TFV_Uniform_Desert_Marthinsen";
+			_unit addVest "TFV_Vest_Standard_Desert_Marthinsen";
+		};
 	
-	if (((profilename find "Marthinsen") != -1) && (typeOf _unit) in _TFVWood) then {
-	_unit forceAddUniform "TFV_Uniform_Wood_Marthinsen";
-	_unit addVest "TFV_Vest_Standard_Wood_Marthinsen";
-	};
+		if (((profilename find "Marthinsen") != -1) && (typeOf _unit) in _TFVWood) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Wood_Marthinsen";
+			_unit addVest "TFV_Vest_Standard_Wood_Marthinsen";
+		};
 
 	//MURVOLD----------------------------------------------------------------------
  
-	if (((profilename find "Murvold") != -1) && (typeOf _unit) in _TFVWood) then {
-	_unit forceAddUniform "TFV_Uniform_Wood_Murvold";
-	_unit addVest "TFV_Vest_Standard_Wood_Murvold";
-	};
+		if (((profilename find "Murvold") != -1) && (typeOf _unit) in _TFVWood) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Wood_Murvold";
+			_unit addVest "TFV_Vest_Standard_Wood_Murvold";
+		};
 
-	if (((profilename find "Murvold") != -1) && (typeOf _unit) in _TFVDesert) then {
-	_unit forceAddUniform "TFV_Uniform_Desert_Murvold";
-	_unit addVest "TFV_Vest_Standard_Desert_Murvold";
-	};
+		if (((profilename find "Murvold") != -1) && (typeOf _unit) in _TFVDesert) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Desert_Murvold";
+			_unit addVest "TFV_Vest_Standard_Desert_Murvold";
+		};
 	
 	//MYKLEBUST----------------------------------------------------------------------
  
-	if (((profilename find "Myklebust") != -1) && (typeOf _unit) in _TFVWood) then {
-	_unit forceAddUniform "TFV_Uniform_Wood_Myklebust";
-	_unit addVest "TFV_Vest_Standard_Wood_Myklebust";
-	};
+		if (((profilename find "Myklebust") != -1) && (typeOf _unit) in _TFVWood) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Wood_Myklebust";
+			_unit addVest "TFV_Vest_Standard_Wood_Myklebust";
+		};
 
-	 if (((profilename find "Myklebust") != -1) && (typeOf _unit) in _TFVDesert) then {
-	_unit forceAddUniform "TFV_Uniform_Desert_Myklebust";
-	_unit addVest "TFV_Vest_Standard_Desert_Myklebust";
-	};
+	 	if (((profilename find "Myklebust") != -1) && (typeOf _unit) in _TFVDesert) then 
+	 	{
+			_unit forceAddUniform "TFV_Uniform_Desert_Myklebust";
+			_unit addVest "TFV_Vest_Standard_Desert_Myklebust";
+		};
 	
 	//MYRVANG----------------------------------------------------------------------
  
-	if (((profilename find "Myrvang") != -1) && (typeOf _unit) in _TFVWood) then {
-	_unit forceAddUniform "TFV_Uniform_Wood_Myrvang";
-	_unit addVest "TFV_Vest_Standard_Wood_Myrvang";
-	};
+		if (((profilename find "Myrvang") != -1) && (typeOf _unit) in _TFVWood) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Wood_Myrvang";
+			_unit addVest "TFV_Vest_Standard_Wood_Myrvang";
+		};
 
-	if (((profilename find "Myrvang") != -1) && (typeOf _unit) in _TFVDesert) then {
-	_unit forceAddUniform "TFV_Uniform_Desert_Myrvang";
-	_unit addVest "TFV_Vest_Standard_Desert_Myrvang";
-	};
+		if (((profilename find "Myrvang") != -1) && (typeOf _unit) in _TFVDesert) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Desert_Myrvang";
+			_unit addVest "TFV_Vest_Standard_Desert_Myrvang";
+		};
 	
 	//PEDERSEN----------------------------------------------------------------------
  
-	if (((profilename find "Pedersen") != -1) && (typeOf _unit) in _TFVWood) then {
-	_unit forceAddUniform "TFV_Uniform_Wood_Pedersen";
-	_unit addVest "TFV_Vest_Standard_Wood_Pedersen";
-	};
+		if (((profilename find "Pedersen") != -1) && (typeOf _unit) in _TFVWood) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Wood_Pedersen";
+			_unit addVest "TFV_Vest_Standard_Wood_Pedersen";
+		};
 	
-	 if (((profilename find "Pedersen") != -1) && (typeOf _unit) in _TFVDesert) then {
-	_unit forceAddUniform "TFV_Uniform_Desert_Pedersen";
-	_unit addVest "TFV_Vest_Standard_Desert_Pedersen";
-	};
+	 	if (((profilename find "Pedersen") != -1) && (typeOf _unit) in _TFVDesert) then 
+	 	{
+			_unit forceAddUniform "TFV_Uniform_Desert_Pedersen";
+			_unit addVest "TFV_Vest_Standard_Desert_Pedersen";
+		};
 
 	//VEDAL----------------------------------------------------------------------
-	if (((profilename find "Vedal") != -1) && (typeOf _unit) in _TFVWood) then {
-	_unit forceAddUniform "TFV_Uniform_Wood_Vedal";
-	_unit addVest "TFV_Vest_Standard_Wood_Vedal";
-	};
 	
-	if (((profilename find "Vedal") != -1) && (typeOf _unit) in _TFVDesert) then {
-	_unit forceAddUniform "TFV_Uniform_Desert_Vedal";
-	_unit addVest "TFV_Vest_Standard_Desert_Vedal";
-	};
+		if (((profilename find "Vedal") != -1) && (typeOf _unit) in _TFVWood) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Wood_Vedal";
+			_unit addVest "TFV_Vest_Standard_Wood_Vedal";
+		};
+	
+		if (((profilename find "Vedal") != -1) && (typeOf _unit) in _TFVDesert) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Desert_Vedal";
+			_unit addVest "TFV_Vest_Standard_Desert_Vedal";
+		};
 
 	//WALKDEN----------------------------------------------------------------------
-	if (((profilename find "Walkden") != -1) && (typeOf _unit) in _TFVWood) then {
-	_unit forceAddUniform "TFV_Uniform_Wood_Walkden";
-	_unit addVest "TFV_Vest_Standard_Wood_Walkden";
-	};
 	
-	 if (((profilename find "Walkden") != -1) && (typeOf _unit) in _TFVDesert) then {
-	_unit forceAddUniform "TFV_Uniform_Desert_Walkden";
-	_unit addVest "TFV_Vest_Standard_Desert_Walkden";
-	};
-
-
-
-//SQUADLEADER-------------------------------------------------------------------------
-
-	if ((typeOf _unit) in _TFVSquadLeader) then {
+		if (((profilename find "Walkden") != -1) && (typeOf _unit) in _TFVWood) then 
+		{
+			_unit forceAddUniform "TFV_Uniform_Wood_Walkden";
+			_unit addVest "TFV_Vest_Standard_Wood_Walkden";
+		};
 	
-	comment "Remove existing items";
-		removeAllWeapons _unit;
-		removeAllItems _unit;
-		removeAllAssignedItems _unit;
-		removeBackpack _unit;
-		removeHeadgear _unit;
-		removeGoggles _unit;
+	 	if (((profilename find "Walkden") != -1) && (typeOf _unit) in _TFVDesert) then 
+	 	{
+			_unit forceAddUniform "TFV_Uniform_Desert_Walkden";
+			_unit addVest "TFV_Vest_Standard_Desert_Walkden";
+		};
+
+//CUSTOM UNIT LOADOUT-----------------------------------------------------------------
+
+	//SQUADLEADER-------------------------------------------------------------------------
+
+		if ((typeOf _unit) in _TFVSquadLeader) then {
 	
-	comment "Add containers";
-		for "_i" from 1 to 2 do { _unit addItemToUniform "AGM_Bandage";};
-		for "_i" from 1 to 2 do { _unit addItemToUniform "RH_17Rnd_9x19_g17";};
-		_unit addItemToVest "muzzle_mas_snds_M";
-		for "_i" from 1 to 5 do { _unit addItemToVest "AGM_CableTie";};
-		_unit addItemToVest "AGM_MapTools";
-		_unit addItemToVest "ItemcTab";
-		for "_i" from 1 to 2 do { _unit addItemToVest "HandGrenade";};
-		_unit addItemToVest "1Rnd_HE_Grenade_shell";
-		_unit addItemToVest "1Rnd_SmokeGreen_Grenade_shell";
-		_unit addItemToVest "1Rnd_SmokeRed_Grenade_shell";
-		for "_i" from 1 to 2 do { _unit addItemToVest "SmokeShell";};
-		_unit addItemToVest "SmokeShellGreen";
-		_unit addItemToVest "SmokeShellRed";
-		for "_i" from 1 to 2 do { _unit addItemToVest "AGM_M84";};
-		for "_i" from 1 to 2 do { _unit addItemToVest "30Rnd_mas_556x45_Stanag";};
-		_unit addBackpack "tf_rt1523g_big_bwmod";
-		_unit addItemToBackpack "caf_MNVG";
-		for "_i" from 1 to 2 do { _unit addItemToBackpack "UGL_FlareWhite_F";};
-		for "_i" from 1 to 2 do { _unit addItemToBackpack "UGL_FlareCIR_F";};
-		_unit addHeadgear "H_mas_it_beretn";
+		comment "Remove existing items";
+			removeAllWeapons _unit;
+			removeAllItems _unit;
+			removeAllAssignedItems _unit;
+			removeBackpack _unit;
+			removeHeadgear _unit;
+			removeGoggles _unit;
+	
+		comment "Add containers";
+			for "_i" from 1 to 2 do { _unit addItemToUniform "AGM_Bandage";};
+			for "_i" from 1 to 2 do { _unit addItemToUniform "RH_17Rnd_9x19_g17";};
+			_unit addItemToVest "muzzle_mas_snds_M";
+			for "_i" from 1 to 5 do { _unit addItemToVest "AGM_CableTie";};
+			_unit addItemToVest "AGM_MapTools";
+			_unit addItemToVest "ItemcTab";
+			for "_i" from 1 to 2 do { _unit addItemToVest "HandGrenade";};
+			_unit addItemToVest "1Rnd_HE_Grenade_shell";
+			_unit addItemToVest "1Rnd_SmokeGreen_Grenade_shell";
+			_unit addItemToVest "1Rnd_SmokeRed_Grenade_shell";
+			for "_i" from 1 to 2 do { _unit addItemToVest "SmokeShell";};
+			_unit addItemToVest "SmokeShellGreen";
+			_unit addItemToVest "SmokeShellRed";
+			for "_i" from 1 to 2 do { _unit addItemToVest "AGM_M84";};
+			for "_i" from 1 to 2 do { _unit addItemToVest "30Rnd_mas_556x45_Stanag";};
+			_unit addBackpack "tf_rt1523g_big_bwmod";
+			_unit addItemToBackpack "caf_MNVG";
+			for "_i" from 1 to 2 do { _unit addItemToBackpack "UGL_FlareWhite_F";};
+			for "_i" from 1 to 2 do { _unit addItemToBackpack "UGL_FlareCIR_F";};
+			_unit addHeadgear "H_mas_it_beretn";
 					
-	comment "Add weapons";
-		_unit addWeapon "arifle_mas_hk416_gl";
-		_unit addPrimaryWeaponItem "RH_peq2_top";
-		_unit addPrimaryWeaponItem "RH_ta31rco_2D";
-		_unit addWeapon "RH_g19t";
-		_unit addHandgunItem "RH_gemtech9";
-		_unit addHandgunItem "RH_M6X";
-		_unit addWeapon "AGM_Vector";
+		comment "Add weapons";
+			_unit addWeapon "arifle_mas_hk416_gl";
+			_unit addPrimaryWeaponItem "RH_peq2_top";
+			_unit addPrimaryWeaponItem "RH_ta31rco_2D";
+			_unit addWeapon "RH_g19t";
+			_unit addHandgunItem "RH_gemtech9";
+			_unit addHandgunItem "RH_M6X";
+			_unit addWeapon "AGM_Vector";
+		
+		comment "Add items";
+			_unit linkItem "ItemMap";
+			_unit linkItem "ItemCompass";
+			_unit linkItem "tf_microdagr";
+			_unit linkItem "ItemRadio";
+			_unit linkItem "ItemGPS";
 	
-	comment "Add items";
-		_unit linkItem "ItemMap";
-		_unit linkItem "ItemCompass";
-		_unit linkItem "tf_microdagr";
-		_unit linkItem "ItemRadio";
-		_unit linkItem "ItemGPS";
+		comment "Set identity";
+			[_unit,"NOR_Insignia_viking_BW"] call bis_fnc_setUnitInsignia;
 	
-	comment "Set identity";
-		[_unit,"NOR_Insignia_viking_BW"] call bis_fnc_setUnitInsignia;
-
 	};
 	
 	
