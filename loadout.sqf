@@ -1,8 +1,10 @@
 _unit = _this select 0; // reference to the unit
 
 _TFVWood = ["TFV_SL_Wood","TFV_FTL_Wood","TFV_Medic_Wood","TFV_MG1_Wood","TFV_MG2_Wood","TFV_Rifleman_Wood","TFV_AT_Wood","TFV_Grenadier_Wood","TFV_CrewCO_Wood","TFV_Crew_Wood","TFV_HeliPilot_Wood","TFV_HeliCrew_Wood","TFV_JetPilot_Wood"];
+_TFVWoodRecon = [];
 
 _TFVDesert = ["TFV_SL_Desert","TFV_FTL_Desert","TFV_Medic_Desert","TFV_MG1_Desert","TFV_MG2_Desert","TFV_Rifleman_Desert","TFV_AT_Desert","TFV_Grenadier_Desert","TFV_CrewCO_Desert","TFV_Crew_Desert","TFV_HeliPilot_Desert","TFV_HeliCrew_Desert","TFV_JetPilot_Desert"];
+_TFVDesertRecon = [];
 
 _TFVSquadLeader = 			["TFV_SL_Wood","TFV_SL_Desert"];
 _TFVFireTeamLeader =			["TFV_FTL_Wood","TFV_FTL_Desert"];
@@ -17,6 +19,8 @@ _TFVCrewMembers = 			["TFV_Crew_Wood","TFV_Crew_Desert"];
 _TFVHeliPilot = 			["TFV_HeliPilot_Wood","TFV_HeliPilot_Desert"];
 _TFVHeliCrew = 				["TFV_HeliCrew_Wood","TFV_HeliCrew_Desert"];
 _TFVJetPilot = 				["TFV_JetPilot_Wood","TFV_JetPilot_Desert"];
+_TFVSniper =				["TFV_Sniper_Wood","TFV_Sniper_Desert"];
+_TFVSpotter =				["TFV_Spotter_Wood","TFV_Spotter_Desert"];
 
 if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminate script
 
@@ -449,8 +453,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			removeAllWeapons _unit;
 			removeAllItems _unit;
 			removeAllAssignedItems _unit;
-			removeUniform _unit;
-			removeVest _unit;
 			removeBackpack _unit;
 			removeHeadgear _unit;
 			removeGoggles _unit;
@@ -502,8 +504,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			removeAllWeapons _unit;
 			removeAllItems _unit;
 			removeAllAssignedItems _unit;
-			removeUniform _unit;
-			removeVest _unit;
 			removeBackpack _unit;
 			removeHeadgear _unit;
 			removeGoggles _unit;
@@ -549,8 +549,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			removeAllWeapons _unit;
 			removeAllItems _unit;
 			removeAllAssignedItems _unit;
-			removeUniform _unit;
-			removeVest _unit;
 			removeBackpack _unit;
 			removeHeadgear _unit;
 			removeGoggles _unit;
@@ -597,8 +595,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			removeAllWeapons _unit;
 			removeAllItems _unit;
 			removeAllAssignedItems _unit;
-			removeUniform _unit;
-			removeVest _unit;
 			removeBackpack _unit;
 			removeHeadgear _unit;
 			removeGoggles _unit;
@@ -649,8 +645,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			removeAllWeapons _unit;
 			removeAllItems _unit;
 			removeAllAssignedItems _unit;
-			removeUniform _unit;
-			removeVest _unit;
 			removeBackpack _unit;
 			removeHeadgear _unit;
 			removeGoggles _unit;
@@ -687,6 +681,118 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 				_unit linkItem "ItemRadio";
 				_unit linkItem "ItemGPS";
 				_unit linkItem "NVGoggles_mas_mask2_t";
+	
+		comment "Set insignia";
+			[_unit,"NOR_Insignia_viking_BW"] call bis_fnc_setUnitInsignia;
+	};
+
+//SNIPER-----------------------------------------------------------
+	if ((typeOf _unit) in _TFVSniper) then 
+	{
+	
+		comment "Remove existing items";
+			removeAllWeapons _unit;
+			removeAllItems _unit;
+			removeAllAssignedItems _unit;
+			removeUniform _unit;
+			removeVest _unit;
+			removeBackpack _unit;
+			removeHeadgear _unit;
+			removeGoggles _unit;
+	
+		comment "Add containers";
+			_unit forceAddUniform "NOR_Ghillie_Wood";
+			for "_i" from 1 to 2 do {_unit addItemToUniform "AGM_Bandage";};
+			_unit addItemToUniform "AGM_IR_Strobe_Item";
+			for "_i" from 1 to 3 do {_unit addItemToUniform "RH_15Rnd_45cal_fnp";};
+			_unit addVest "TFV_Vest_Standard_Wood";
+			for "_i" from 1 to 5 do {_unit addItemToVest "AGM_CableTie";};
+			_unit addItemToVest "RH_gemtech45";
+			_unit addItemToVest "muzzle_mas_snds_SHc";
+			for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
+			for "_i" from 1 to 4 do {_unit addItemToVest "SmokeShellPurple";};
+			for "_i" from 1 to 2 do {_unit addItemToVest "B_IR_Grenade";};
+			_unit addItemToVest "HandGrenade";
+			for "_i" from 1 to 8 do {_unit addItemToVest "5Rnd_mas_762x51_Stanag";};
+			_unit addBackpack "NOR_Carryall_Wood";
+			_unit addItemToBackpack "C1987_MP7_suppressor";
+			_unit addItemToBackpack "FHQ_optic_AIM";
+			_unit addItemToBackpack "C1987_MP7_folded2";
+			for "_i" from 1 to 2 do {_unit addItemToBackpack "SmokeShell";};
+			for "_i" from 1 to 3 do {_unit addItemToBackpack "C1987_40Rnd_46x30_mp7";};
+					
+		comment "Add weapons";
+			_unit addWeapon "srifle_mas_m24_v";
+			_unit addPrimaryWeaponItem "optic_LRPS";
+			_unit addWeapon "RH_fnp45t";
+			_unit addHandgunItem "RH_X300";
+			_unit addHandgunItem "RH_docter";
+			_unit addWeapon "AGM_Vector";
+		
+		comment "Add items";
+				_unit linkItem "ItemMap";
+				_unit linkItem "ItemCompass";
+				_unit linkItem "tf_microdagr";
+				_unit linkItem "ItemRadio";
+				_unit linkItem "ItemGPS";
+				_unit linkItem "NVGoggles_mas_mask_t";
+	
+		comment "Set insignia";
+			[_unit,"NOR_Insignia_viking_BW"] call bis_fnc_setUnitInsignia;
+	};
+
+//SPOTTER-----------------------------------------------------------
+	if ((typeOf _unit) in _TFVSpotter) then 
+	{
+	
+		comment "Remove existing items";
+			removeAllWeapons _unit;
+			removeAllItems _unit;
+			removeAllAssignedItems _unit;
+			removeUniform _unit;
+			removeVest _unit;
+			removeBackpack _unit;
+			removeHeadgear _unit;
+			removeGoggles _unit;
+	
+		comment "Add containers";
+			_unit forceAddUniform "NOR_Ghillie_Wood";
+			for "_i" from 1 to 2 do {_unit addItemToUniform "AGM_Bandage";};
+			_unit addItemToUniform "AGM_IR_Strobe_Item";
+			for "_i" from 1 to 3 do {_unit addItemToUniform "RH_15Rnd_45cal_fnp";};
+			_unit addVest "TFV_Vest_Standard_Wood";
+			for "_i" from 1 to 5 do {_unit addItemToVest "AGM_CableTie";};
+			_unit addItemToVest "RH_gemtech45";
+			_unit addItemToVest "AGM_ItemKestrel";
+			_unit addItemToVest "AGM_MapTools";
+			_unit addItemToVest "ItemcTab";
+			_unit addItemToVest "hlc_muzzle_snds_M14";
+			for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
+			for "_i" from 1 to 4 do {_unit addItemToVest "SmokeShellPurple";};
+			for "_i" from 1 to 2 do {_unit addItemToVest "B_IR_Grenade";};
+			_unit addItemToVest "HandGrenade";
+			for "_i" from 1 to 9 do {_unit addItemToVest "hlc_20Rnd_762x51_B_M14";};
+			_unit addBackpack "tf_rt1523g_big";
+			_unit addItemToBackpack "C1987_MP7_suppressor";
+			_unit addItemToBackpack "FHQ_optic_AIM";
+			_unit addItemToBackpack "C1987_MP7_folded2";
+			for "_i" from 1 to 2 do {_unit addItemToBackpack "SmokeShell";};
+					
+		comment "Add weapons";
+			_unit addWeapon "hlc_rifle_m14dmr";
+			_unit addPrimaryWeaponItem "hlc_optic_LRT_m14";
+			_unit addWeapon "RH_fnp45t";
+			_unit addHandgunItem "RH_X300";
+			_unit addHandgunItem "RH_docter";
+			_unit addWeapon "AGM_Vector";
+		
+		comment "Add items";
+				_unit linkItem "ItemMap";
+				_unit linkItem "ItemCompass";
+				_unit linkItem "tf_microdagr";
+				_unit linkItem "ItemRadio";
+				_unit linkItem "ItemGPS";
+				_unit linkItem "NVGoggles_mas_mask_t";
 	
 		comment "Set insignia";
 			[_unit,"NOR_Insignia_viking_BW"] call bis_fnc_setUnitInsignia;
