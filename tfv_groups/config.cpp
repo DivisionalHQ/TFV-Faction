@@ -98,6 +98,31 @@ class CfgGroups
 						
 					};
 					
+					class TFV_Wood_Recon
+					{
+						name = "Recon Team (Wood)";
+						side = 1;
+						rarityGroup = 0.3;
+						faction = "TFV_Units";
+						
+						class Unit0
+						{
+						side = 1;
+						vehicle = "TFV_Sniper_Wood";
+						rank = "PRIVATE";
+						position[] = {3,0,0};
+						};
+						
+						class Unit1
+						{
+						side = 1;
+						vehicle = "TFV_Spotter_Wood";
+						rank = "CORPORAL";
+						position[] = {0,5,0};
+						};
+					
+					};
+					
 					class TFV_Desert
 					{
 						name = "Section (Desert)";
@@ -169,6 +194,31 @@ class CfgGroups
 						position[] = {16,0,0};
 						};				
 						
+					};
+					
+					class TFV_Desert_Recon
+					{
+						name = "Recon Team (Desert)";
+						side = 1;
+						rarityGroup = 0.3;
+						faction = "TFV_Units";
+						
+						class Unit0
+						{
+						side = 1;
+						vehicle = "TFV_Sniper_Desert";
+						rank = "PRIVATE";
+						position[] = {0,5,0};
+						};
+						
+						class Unit1
+						{
+						side = 1;
+						vehicle = "TFV_Spotter_Desert";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+						};
+					
 					};
 					
 				};

@@ -102,7 +102,7 @@ class CfgVehicles
 	class TFV_Kitbag_Wood_AT: B_Kitbag_Base
 	{
 		scope=2;
-		displayName="TFV Kitbag (Wood)";
+		displayName="TFV Kitbag AT (Wood)";
 		author="TFV";
 		picture="\tfv_backpacks\data\ui\nor_kitbag_wood_icon_ca.paa";
 		hiddenSelectionsTextures[]=
@@ -125,7 +125,7 @@ class CfgVehicles
 	class TFV_Kitbag_Wood_Grenadier: B_Kitbag_Base
 	{
 		scope=2;
-		displayName="TFV Kitbag (Wood)";
+		displayName="TFV Kitbag Grenadier (Wood)";
 		author="TFV";
 		picture="\tfv_backpacks\data\ui\nor_kitbag_wood_icon_ca.paa";
 		hiddenSelectionsTextures[]=
@@ -232,7 +232,7 @@ class CfgVehicles
 	class TFV_Kitbag_Desert_AT: B_Kitbag_Base
 	{
 		scope=2;
-		displayName="TFV Kitbag (Desert)";
+		displayName="TFV Kitbag AT (Desert)";
 		author="TFV";
 		picture="\tfv_backpacks\data\ui\nor_kitbag_Desert_icon_ca.paa";
 		hiddenSelectionsTextures[]=
@@ -255,7 +255,7 @@ class CfgVehicles
 	class TFV_Kitbag_Desert_Grenadier: B_Kitbag_Base
 	{
 		scope=2;
-		displayName="TFV Kitbag (Desert)";
+		displayName="TFV Kitbag Grenadier (Desert)";
 		author="TFV";
 		picture="\tfv_backpacks\data\ui\nor_kitbag_Desert_icon_ca.paa";
 		hiddenSelectionsTextures[]=
