@@ -314,7 +314,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 					
 		comment "Add weapons";
 			_unit addWeapon "arifle_mas_hk416_gl_v";
-			_unit addPrimaryWeaponItem "RH_peq2_top";
+			_unit addPrimaryWeaponItem "FHQ_acc_ANPEQ15_black";
 			_unit addPrimaryWeaponItem "optic_Hamr";
 			_unit addWeapon "RH_fnp45t";
 			_unit addHandgunItem "RH_X300";
@@ -372,7 +372,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 					
 		comment "Add weapons";
 			_unit addWeapon "arifle_mas_hk416_gl_v";
-			_unit addPrimaryWeaponItem "RH_peq2_top";
+			_unit addPrimaryWeaponItem "FHQ_acc_ANPEQ15_black";
 			_unit addPrimaryWeaponItem "optic_Hamr";
 			_unit addWeapon "RH_fnp45t";
 			_unit addHandgunItem "RH_X300";
