@@ -290,13 +290,13 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			removeGoggles _unit;
 	
 		comment "Add containers";
-			for "_i" from 1 to 2 do {_unit addItemToUniform "AGM_Bandage";};
+			for "_i" from 1 to 2 do {_unit addItemToUniform "cse_bandage_basic";};
 			_unit addItemToUniform "AGM_IR_Strobe_Item";
 			for "_i" from 1 to 2 do {_unit addItemToUniform "RH_15Rnd_45cal_fnp";};
 			_unit addItemToVest "muzzle_mas_snds_M";
 			for "_i" from 1 to 5 do {_unit addItemToVest "AGM_CableTie";};
 			_unit addItemToVest "AGM_MapTools";
-			for "_i" from 1 to 5 do {_unit addItemToVest "AGM_Bandage";};
+			for "_i" from 1 to 5 do {_unit addItemToVest "cse_bandage_basic";};
 			_unit addItemToVest "ItemcTab";
 			_unit addItemToVest "RH_gemtech45";
 			for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
@@ -308,7 +308,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			for "_i" from 1 to 8 do {_unit addItemToVest "30Rnd_mas_556x45_Stanag";};
 			_unit addBackpack "tf_rt1523g_big_bwmod";
 			for "_i" from 1 to 5 do {_unit addItemToBackpack "AGM_CableTie";};
-			for "_i" from 1 to 5 do {_unit addItemToBackpack "AGM_Bandage";};
+			for "_i" from 1 to 5 do {_unit addItemToBackpack "cse_bandage_basic";};
 			for "_i" from 1 to 2 do {_unit addItemToBackpack "UGL_FlareCIR_F";};
 			_unit addHeadgear "vdo_opscore_multicam_2_devgru_peltor";
 					
@@ -348,13 +348,13 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			removeGoggles _unit;
 	
 		comment "Add containers";
-			for "_i" from 1 to 2 do {_unit addItemToUniform "AGM_Bandage";};
+			for "_i" from 1 to 2 do {_unit addItemToUniform "cse_bandage_basic";};
 			_unit addItemToUniform "AGM_IR_Strobe_Item";
 			for "_i" from 1 to 2 do {_unit addItemToUniform "RH_15Rnd_45cal_fnp";};
 			_unit addItemToVest "muzzle_mas_snds_M";
 			for "_i" from 1 to 5 do {_unit addItemToVest "AGM_CableTie";};
 			_unit addItemToVest "AGM_MapTools";
-			for "_i" from 1 to 5 do {_unit addItemToVest "AGM_Bandage";};
+			for "_i" from 1 to 5 do {_unit addItemToVest "cse_bandage_basic";};
 			_unit addItemToVest "ItemcTab";
 			_unit addItemToVest "RH_gemtech45";
 			for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
@@ -366,7 +366,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			for "_i" from 1 to 8 do {_unit addItemToVest "30Rnd_mas_556x45_Stanag";};
 			_unit addBackpack "tf_rt1523g_big_bwmod";
 			for "_i" from 1 to 5 do {_unit addItemToBackpack "AGM_CableTie";};
-			for "_i" from 1 to 5 do {_unit addItemToBackpack "AGM_Bandage";};
+			for "_i" from 1 to 5 do {_unit addItemToBackpack "cse_bandage_basic";};
 			for "_i" from 1 to 2 do {_unit addItemToBackpack "UGL_FlareCIR_F";};
 			_unit addHeadgear "vdo_opscore_multicam_2_devgru_peltor";
 					
@@ -405,22 +405,22 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			removeGoggles _unit;
 
 		comment "Add containers";
-			for "_i" from 1 to 2 do {_unit addItemToUniform "AGM_Bandage";};
+			for "_i" from 1 to 2 do {_unit addItemToUniform "cse_bandage_basic";};
 			_unit addItemToUniform "RH_17Rnd_9x19_g17";
 			_unit addItemToVest "muzzle_MK18D_L";
-			for "_i" from 1 to 10 do {_unit addItemToVest "AGM_Bandage";};
-			for "_i" from 1 to 5 do {_unit addItemToVest "AGM_Morphine";};
-			for "_i" from 1 to 5 do {_unit addItemToVest "AGM_Epipen";};
+			for "_i" from 1 to 10 do {_unit addItemToVest "cse_bandage_basic";};
+			for "_i" from 1 to 5 do {_unit addItemToVest "cse_morphine";};
+			for "_i" from 1 to 5 do {_unit addItemToVest "cse_epinephrine";};
 			for "_i" from 1 to 4 do {_unit addItemToVest "AGM_CableTie";};
 			_unit addItemToVest "RH_gemtech9";
 			for "_i" from 1 to 6 do {_unit addItemToVest "SmokeShell";};
 			_unit addItemToVest "HandGrenade";
 			for "_i" from 1 to 3 do {_unit addItemToVest "30Rnd_556x45_Stanag";};
 			_unit addBackpack "NOR_Kitbag_Medic_Wood";
-			for "_i" from 1 to 4 do {_unit addItemToBackpack "AGM_Bloodbag";};
-			for "_i" from 1 to 30 do {_unit addItemToBackpack "AGM_Bandage";};
-			for "_i" from 1 to 10 do {_unit addItemToBackpack "AGM_Morphine";};
-			for "_i" from 1 to 10 do {_unit addItemToBackpack "AGM_Epipen";};
+			for "_i" from 1 to 4 do {_unit addItemToBackpack "cse_blood_iv";};
+			for "_i" from 1 to 30 do {_unit addItemToBackpack "cse_bandage_basic";};
+			for "_i" from 1 to 10 do {_unit addItemToBackpack "cse_morphine";};
+			for "_i" from 1 to 10 do {_unit addItemToBackpack "cse_epinephrine";};
 			_unit addHeadgear "vdo_opscore_green_2_peltor";
 			_unit addGoggles "Pomi_Goggles_Grn";
 
@@ -458,7 +458,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			removeGoggles _unit;
 		
 		comment "Add containers";
-			for "_i" from 1 to 2 do {_unit addItemToUniform "AGM_Bandage";};
+			for "_i" from 1 to 2 do {_unit addItemToUniform "cse_bandage_basic";};
 			_unit addItemToUniform "AGM_IR_Strobe_Item";
 			for "_i" from 1 to 2 do {_unit addItemToUniform "RH_15Rnd_45cal_fnp";};
 			for "_i" from 1 to 5 do {_unit addItemToVest "AGM_CableTie";};
@@ -509,7 +509,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			removeGoggles _unit;
 		
 		comment "Add containers";
-			for "_i" from 1 to 2 do {_unit addItemToUniform "AGM_Bandage";};
+			for "_i" from 1 to 2 do {_unit addItemToUniform "cse_bandage_basic";};
 			_unit addItemToUniform "AGM_IR_Strobe_Item";
 			_unit addItemToUniform "RH_17Rnd_9x19_g17";
 			for "_i" from 1 to 5 do {_unit addItemToVest "AGM_CableTie";};
@@ -554,7 +554,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			removeGoggles _unit;
 		
 		comment "Add containers";
-			for "_i" from 1 to 2 do {_unit addItemToUniform "AGM_Bandage";};
+			for "_i" from 1 to 2 do {_unit addItemToUniform "cse_bandage_basic";};
 			_unit addItemToUniform "AGM_IR_Strobe_Item";
 			_unit addItemToUniform "RH_17Rnd_9x19_g17";
 			for "_i" from 1 to 5 do {_unit addItemToVest "AGM_CableTie";};
@@ -600,7 +600,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			removeGoggles _unit;
 	
 		comment "Add containers";
-			for "_i" from 1 to 2 do {_unit addItemToUniform "AGM_Bandage";};
+			for "_i" from 1 to 2 do {_unit addItemToUniform "cse_bandage_basic";};
 			_unit addItemToUniform "AGM_Clacker";
 			_unit addItemToUniform "AGM_IR_Strobe_Item";
 			for "_i" from 1 to 2 do {_unit addItemToUniform "RH_17Rnd_9x19_g17";};
@@ -650,7 +650,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			removeGoggles _unit;
 	
 		comment "Add containers";
-			for "_i" from 1 to 2 do {_unit addItemToUniform "AGM_Bandage";};
+			for "_i" from 1 to 2 do {_unit addItemToUniform "cse_bandage_basic";};
 			_unit addItemToUniform "AGM_IR_Strobe_Item";
 			for "_i" from 1 to 2 do {_unit addItemToUniform "RH_15Rnd_45cal_fnp";};
 			for "_i" from 1 to 5 do {_unit addItemToVest "AGM_CableTie";};
@@ -702,7 +702,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	
 		comment "Add containers";
 			_unit forceAddUniform "NOR_Ghillie_Wood";
-			for "_i" from 1 to 2 do {_unit addItemToUniform "AGM_Bandage";};
+			for "_i" from 1 to 2 do {_unit addItemToUniform "cse_bandage_basic";};
 			_unit addItemToUniform "AGM_IR_Strobe_Item";
 			for "_i" from 1 to 3 do {_unit addItemToUniform "RH_15Rnd_45cal_fnp";};
 			_unit addVest "TFV_Vest_Standard_Wood";
@@ -757,7 +757,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	
 		comment "Add containers";
 			_unit forceAddUniform "NOR_Ghillie_Wood";
-			for "_i" from 1 to 2 do {_unit addItemToUniform "AGM_Bandage";};
+			for "_i" from 1 to 2 do {_unit addItemToUniform "cse_bandage_basic";};
 			_unit addItemToUniform "AGM_IR_Strobe_Item";
 			for "_i" from 1 to 3 do {_unit addItemToUniform "RH_15Rnd_45cal_fnp";};
 			_unit addVest "TFV_Vest_Standard_Wood";
