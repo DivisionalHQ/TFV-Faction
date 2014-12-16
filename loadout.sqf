@@ -407,7 +407,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		comment "Add containers";
 			for "_i" from 1 to 2 do {_unit addItemToUniform "cse_bandage_basic";};
 			_unit addItemToUniform "RH_17Rnd_9x19_g17";
-			_unit addItemToVest "muzzle_MK18D_L";
+			_unit addItemToVest "R3F_SILENCIEUX_HK417";
 			for "_i" from 1 to 10 do {_unit addItemToVest "cse_bandage_basic";};
 			for "_i" from 1 to 5 do {_unit addItemToVest "cse_morphine";};
 			for "_i" from 1 to 5 do {_unit addItemToVest "cse_epinephrine";};
@@ -415,7 +415,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			_unit addItemToVest "RH_gemtech9";
 			for "_i" from 1 to 6 do {_unit addItemToVest "SmokeShell";};
 			_unit addItemToVest "HandGrenade";
-			for "_i" from 1 to 3 do {_unit addItemToVest "30Rnd_556x45_Stanag";};
+			for "_i" from 1 to 5 do {_unit addItemToVest "R3F_20Rnd_762x51_HK417";};
 			_unit addBackpack "NOR_Kitbag_Medic_Wood";
 			for "_i" from 1 to 4 do {_unit addItemToBackpack "cse_blood_iv";};
 			for "_i" from 1 to 30 do {_unit addItemToBackpack "cse_bandage_basic";};
@@ -425,9 +425,9 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			_unit addGoggles "Pomi_Goggles_Grn";
 
 		comment "Add weapons";
-			_unit addWeapon "RHARD_MK18AFG_F";
-			_unit addPrimaryWeaponItem "PEQ15_A3_Top";
-			_unit addPrimaryWeaponItem "FHQ_optic_AIM";
+			_unit addWeapon "R3F_HK417S_HG";
+			_unit addPrimaryWeaponItem "R3F_POINTEUR_SURB";
+			_unit addPrimaryWeaponItem "R3F_AIMPOINT";
 			_unit addWeapon "RH_g19t";
 			_unit addHandgunItem "RH_M6X";
 			_unit addWeapon "Binocular";
@@ -606,10 +606,10 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			for "_i" from 1 to 2 do {_unit addItemToUniform "RH_17Rnd_9x19_g17";};
 			for "_i" from 1 to 5 do {_unit addItemToVest "AGM_CableTie";};
 			_unit addItemToVest "RH_gemtech9";
-			_unit addItemToVest "muzzle_MK18D_L";
+			_unit addItemToVest "R3F_SILENCIEUX_HK416";
 			for "_i" from 1 to 6 do {_unit addItemToVest "SmokeShell";};
 			for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
-			for "_i" from 1 to 7 do {_unit addItemToVest "30Rnd_556x45_Stanag";};
+			for "_i" from 1 to 7 do {_unit addItemToVest "R3F_30Rnd_556x45_HK416";};
 			_unit addBackpack "NOR_Carryall_Wood";
 			_unit addItemToBackpack "MineDetector";
 			for "_i" from 1 to 4 do {_unit addItemToBackpack "DemoCharge_Remote_Mag";};
@@ -618,9 +618,9 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			_unit addGoggles "Pomi_Goggles_Snd";
 					
 		comment "Add weapons";
-			_unit addWeapon "RHARD_MK18AFG_F";
-			_unit addPrimaryWeaponItem "PEQ15_A3_Top";
-			_unit addPrimaryWeaponItem "FHQ_optic_AIM";
+			_unit addWeapon "R3F_HK416M_HG";
+			_unit addPrimaryWeaponItem "R3F_POINTEUR_SURB";
+			_unit addPrimaryWeaponItem "R3F_AIMPOINT";
 			_unit addWeapon "RH_g19t";
 			_unit addHandgunItem "RH_M6X";
 			_unit addWeapon "Binocular";
