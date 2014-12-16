@@ -315,7 +315,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		comment "Add weapons";
 			_unit addWeapon "arifle_mas_hk416_gl_v";
 			_unit addPrimaryWeaponItem "RH_peq2_top";
-			_unit addPrimaryWeaponItem "RH_ta31rco_2D";
+			_unit addPrimaryWeaponItem "optic_Hamr";
 			_unit addWeapon "RH_fnp45t";
 			_unit addHandgunItem "RH_X300";
 			_unit addHandgunItem "RH_docter";
@@ -373,7 +373,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		comment "Add weapons";
 			_unit addWeapon "arifle_mas_hk416_gl_v";
 			_unit addPrimaryWeaponItem "RH_peq2_top";
-			_unit addPrimaryWeaponItem "RH_ta31rco_2D";
+			_unit addPrimaryWeaponItem "optic_Hamr";
 			_unit addWeapon "RH_fnp45t";
 			_unit addHandgunItem "RH_X300";
 			_unit addHandgunItem "RH_docter";
@@ -446,7 +446,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	
 //GRENADIER-------------------------------------------------------------------------------
 
-	if ((typeOf _unit) in _TFVMedic) then 
+	if ((typeOf _unit) in _TFVGrenadier) then 
 	{
 	
 		comment "Remove existing items";
