@@ -538,6 +538,42 @@ class CfgVehicles
 		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","1Rnd_HE_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed","UGL_FlareWhite_F","UGL_FlareWhite_F","UGL_FlareCIR_F","UGL_FlareCIR_F"};
 	};
 	
+	class TFV_Sniper_Desert: B_sniper_F
+	{
+		_generalMacro="B_sniper_F";
+		scope=2;
+		scopeCurator=2;
+		side = 1;
+		faction="TFV_Units";
+		vehicleClass="TFV_Desert";
+		displayName="Sniper (Desert)";
+		identityTypes[]= {"LanguageENG_F","Head_EURO"};
+		author="TFV";
+		nakedUniform="U_BasicBody";
+		uniformClass = "TFV_Uniform_Desert";
+		backpack = "TFV_Kitbag_Desert";
+		linkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","NOR_Helmet_ECH_Grey","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","NOR_Helmet_ECH_Grey","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		Weapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","Throw","Put","Binocular"};
+		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
+	};
+	
+	class TFV_Spotter_Desert: B_spotter_F
+	{
+		_generalMacro="B_spotter_F";
+		scope=2;
+		scopeCurator=2;
+		side = 1;
+		faction="TFV_Units";
+		vehicleClass="TFV_Desert";
+		displayName="Spotter (Desert)";
+		identityTypes[]= {"LanguageENG_F","Head_EURO"};
+		author="TFV";
+		nakedUniform="U_BasicBody";
+	};
+	
 	class TFV_CrewCO_Desert: B_crew_F
 	{
 		_generalMacro="B_Soldier_F";
