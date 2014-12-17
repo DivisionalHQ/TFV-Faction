@@ -208,7 +208,7 @@ class CfgGroups
 						side = 1;
 						vehicle = "TFV_Sniper_Desert";
 						rank = "PRIVATE";
-						position[] = {0,5,0};
+						position[] = {3,1,1};
 						};
 						
 						class Unit1
