@@ -112,8 +112,12 @@ class CfgVehicles
 		
 		class TransportMagazines
 		{
-			name = "mas_MAAWS";
-			count = 4;
+			class _xx_STI_84MM_HEAT
+			{
+				magazine = "STI_84MM_HEAT";
+				count = 1;
+			};
+		
 		};
 		
 		class TransportItems
@@ -242,8 +246,11 @@ class CfgVehicles
 		
 		class TransportMagazines
 		{
-			name = "mas_MAAWS";
-			count = 4;
+			class _xx_STI_84MM_HEAT
+			{
+				magazine = "STI_84MM_HEAT";
+				count = 1;
+			};
 		};
 		
 		class TransportItems

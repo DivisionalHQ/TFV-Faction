@@ -196,8 +196,8 @@ class CfgVehicles
 		backpack = "TFV_Kitbag_Wood_AT";
 		linkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","NOR_Helmet_ECH_Grey","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
 		respawnLinkedItems[] = {"TFV_Vest_Standard_Wood","NVGoggles_mas","NOR_Helmet_ECH_Grey","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
-		Weapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","mas_launch_maaws_F","Throw","Put","Binocular"};
-		respawnWeapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","mas_launch_maaws_F","Throw","Put","Binocular"};
+		Weapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","STI_MAAWS","Throw","Put","Binocular"};
+		respawnWeapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","STI_MAAWS","Throw","Put","Binocular"};
 		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 	};
@@ -511,8 +511,8 @@ class CfgVehicles
 		backpack = "TFV_Kitbag_Desert_AT";
 		linkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","NOR_Helmet_ECH_Grey","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
 		respawnLinkedItems[] = {"TFV_Vest_Standard_Desert","NVGoggles_mas","NOR_Helmet_ECH_Grey","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
-		Weapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","mas_launch_maaws_F","Throw","Put","Binocular"};
-		respawnWeapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","mas_launch_maaws_F","Throw","Put","Binocular"};
+		Weapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","STI_MAAWS","Throw","Put","Binocular"};
+		respawnWeapons[] = {"arifle_mas_hk416_a","hgun_mas_glocksf_F","STI_MAAWS","Throw","Put","Binocular"};
 		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","12Rnd_mas_45acp_Mag","12Rnd_mas_45acp_Mag","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellRed"};
 	};
