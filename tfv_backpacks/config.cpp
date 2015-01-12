@@ -115,7 +115,7 @@ class CfgVehicles
 			class _xx_STI_84MM_HEAT
 			{
 				magazine = "STI_84MM_HEAT";
-				count = 1;
+				count = 2;
 			};
 		
 		};
@@ -249,7 +249,7 @@ class CfgVehicles
 			class _xx_STI_84MM_HEAT
 			{
 				magazine = "STI_84MM_HEAT";
-				count = 1;
+				count = 2;
 			};
 		};
 		
