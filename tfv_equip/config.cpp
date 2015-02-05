@@ -18,8 +18,49 @@ class cfgWeapons
 {
 	class V_PlateCarrier2_rgr;
 	class VestItem;
+	class ItemCore;
+	class HeadgearItem;
 	
-	//Generic Vests
+	//Generic Vest and Helmet
+	
+	class vdo_opscore_aor1_1_battery: ItemCore
+	{
+		scope=2;
+		author="TFV";
+		displayName="TFV Standard Helmet Wood";
+		picture="\tfv\data\gui\grey.paa";//fix this
+		model="\vdo_gear\vdo_opscore_4.p3d"; //fix this
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\vdo_gear\data\vdo_opscore_aor1_co.paa",//fix this
+			"\vdo_gear\data\vdo_battery_co.paa" //fix this
+		};
+		class ItemInfo: HeadgearItem
+		{
+			mass=25;
+			uniformModel="\vdo_gear\vdo_opscore_4.p3d"; //fix this
+			allowedSlots[]=
+			{
+				"UNIFORM_SLOT",
+				"BACKPACK_SLOT",
+				"VEST_SLOT",
+				"HEADGEAR_SLOT"
+			};
+			modelSides[]={6};
+			armor=3;
+			passThrough=0.5;
+			hiddenSelections[]=
+			{
+				"Camo",
+				"Camo3"
+			};
+		};
+	};
 	
 	class TFV_Vest_Standard_Wood: V_PlateCarrier2_rgr
 	{
