@@ -46,17 +46,6 @@ class CfgVehicles
 		};
 		class TransportItems
 		{
-			class _xx_caf_MNVG
-			{
-				name = "caf_MNVG";
-				count = 1;
-			};
-			
-			class _xx_ItemcTab
-			{
-				name = "ItemcTab";
-				count = 1;
-			};
 		};
 	};
 		
@@ -73,29 +62,6 @@ class CfgVehicles
 		};
 		class TransportItems
 		{
-			class _xx_AGM_Bandage
-			{
-				name = "AGM_Bandage";
-				count = 30;
-			};
-			
-			class _xx_AGM_Morphine
-			{
-				name = "AGM_Morphine";
-				count = 10;
-			};
-			
-			class _xx_AGM_Epipen
-			{
-				name = "AGM_Epipen";
-				count = 10;
-			};
-			
-			class _xx_AGM_Bloodbag
-			{
-				name = "AGM_Bloodbag";
-				count = 4;
-			};
 		};
 	};	
 	
@@ -112,12 +78,7 @@ class CfgVehicles
 		
 		class TransportMagazines
 		{
-			class _xx_STI_84MM_HEAT
-			{
-				magazine = "STI_84MM_HEAT";
-				count = 2;
-			};
-		
+	
 		};
 		
 		class TransportItems
@@ -139,8 +100,6 @@ class CfgVehicles
 		
 		class TransportMagazines
 		{
-			name = "1Rnd_HE_Grenade_shell";
-			count = 5;
 		};
 		
 		class TransportItems
@@ -180,17 +139,6 @@ class CfgVehicles
 		};
 		class TransportItems
 		{
-			class _xx_caf_MNVG
-			{
-				name = "caf_MNVG";
-				count = 1;
-			};
-			
-			class _xx_ItemcTab
-			{
-				name = "ItemcTab";
-				count = 1;
-			};
 		};
 	};
 		
@@ -207,29 +155,6 @@ class CfgVehicles
 		};
 		class TransportItems
 		{
-			class _xx_AGM_Bandage
-			{
-				name = "AGM_Bandage";
-				count = 30;
-			};
-			
-			class _xx_AGM_Morphine
-			{
-				name = "AGM_Morphine";
-				count = 10;
-			};
-			
-			class _xx_AGM_Epipen
-			{
-				name = "AGM_Epipen";
-				count = 10;
-			};
-			
-			class _xx_AGM_Bloodbag
-			{
-				name = "AGM_Bloodbag";
-				count = 4;
-			};
 		};
 	};	
 	
@@ -272,8 +197,6 @@ class CfgVehicles
 		
 		class TransportMagazines
 		{
-			name = "1Rnd_HE_Grenade_shell";
-			count = 5;
 		};
 		
 		class TransportItems

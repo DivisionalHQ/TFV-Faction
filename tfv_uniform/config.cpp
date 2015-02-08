@@ -102,29 +102,6 @@ class CfgVehicles
 		model="\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
 	};
 	
-	class TFV_Uniform_Base_Wood_Gjerde: B_Soldier_F
-	{
-		scope=1;
-		scopeCurator=0;
-		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Wood_Gjerde";
-		hiddenSelections[]= {"Camo","insignia"};
-		hiddenSelectionsTextures[]= {"\tfv_uniform\data\uniforms\wood\personal\Gjerde_Upper_Woodland_Normal.paa"};
-		model="\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
-	};
-	
-	class TFV_Uniform_Base_Desert_Gjerde: B_Soldier_F
-	{
-		scope=1;
-		scopeCurator=0;
-		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Desert_Gjerde";
-		hiddenSelections[]= {"Camo","insignia"};
-		hiddenSelectionsTextures[]=
-		{"\tfv_uniform\data\uniforms\desert\personal\Gjerde_Upper_Desert_Normal.paa"};
-		model="\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
-	};
-	
 	class TFV_Uniform_Base_Wood_Grepperud: B_Soldier_F
 	{
 		scope=1;
@@ -263,29 +240,6 @@ class CfgVehicles
 		model="\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
 	};
 	
-	class TFV_Uniform_Base_Wood_Jensen: B_Soldier_F
-	{
-		scope=1;
-		scopeCurator=0;
-		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Wood_Jensen";
-		hiddenSelections[]= {"Camo","insignia"};
-		hiddenSelectionsTextures[]= {"\tfv_uniform\data\uniforms\wood\personal\Jensen_Upper_Woodland_Normal.paa"};
-		model="\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
-	};
-	
-	class TFV_Uniform_Base_Desert_Jensen: B_Soldier_F
-	{
-		scope=1;
-		scopeCurator=0;
-		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Desert_Jensen";
-		hiddenSelections[]= {"Camo","insignia"};
-		hiddenSelectionsTextures[]=
-		{"\tfv_uniform\data\uniforms\desert\personal\Jensen_Upper_Desert_Normal.paa"};
-		model="\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
-	};
-	
 	class TFV_Uniform_Base_Wood_Loberg: B_Soldier_F
 	{
 		scope=1;
@@ -332,29 +286,7 @@ class CfgVehicles
 		model="\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
 	};
 	
-	
-	class TFV_Uniform_Base_Wood_Murvold: B_Soldier_F
-	{
-		scope=1;
-		scopeCurator=0;
-		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Wood_Murvold";
-		hiddenSelections[]= {"Camo","insignia"};
-		hiddenSelectionsTextures[]= {"\tfv_uniform\data\uniforms\wood\personal\Murvold_Upper_Woodland_Normal.paa"};
-		model="\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
-	};
-	
-	class TFV_Uniform_Base_Desert_Murvold: B_Soldier_F
-	{
-		scope=1;
-		scopeCurator=0;
-		modelsides[]={3,2,1,0};
-		uniformClass="TFV_Uniform_Desert_Murvold";
-		hiddenSelections[]= {"Camo","insignia"};
-		hiddenSelectionsTextures[]=
-		{"\tfv_uniform\data\uniforms\desert\personal\Murvold_Upper_Desert_Normal.paa"};
-		model="\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
-	};
+
 	
 	class TFV_Uniform_Base_Wood_Myklebust: B_Soldier_F
 	{
@@ -593,43 +525,6 @@ class cfgWeapons
 		};
 	};
 	
-	//GJERDE------------------------------------------------------------------------------------------------	
-	
-	class TFV_Uniform_Wood_Gjerde: Uniform_Base
-	{
-		author="TFV";
-		scope=2;
-		displayName="TFV Combat Uniform (Wood - Gjerde)";
-		picture = "\tfv_uniform\data\ui\nor_uniform_wood_icon_ca.paa"; 
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		hiddenSelections[]= {"camo"};
-		hiddenSelectionsTextures[]= {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="TFV_Uniform_Base_Wood_Gjerde";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
-	
-		class TFV_Uniform_Desert_Gjerde: Uniform_Base
-	{
-		author="TFV";
-		scope=2;
-		displayName="TFV Combat Uniform (Desert - Gjerde)";
-		picture = "\tfv_uniform\data\ui\nor_uniform_desert_icon_ca.paa"; 
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		hiddenSelections[]= {"camo"};
-		hiddenSelectionsTextures[]= {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="TFV_Uniform_Base_Desert_Gjerde";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
 	
 	//GREPPERUD------------------------------------------------------------------------------------------------	
 	
@@ -859,43 +754,6 @@ class cfgWeapons
 		};
 	};
 	
-	//JENSEN------------------------------------------------------------------------------------------------	
-	
-		class TFV_Uniform_Wood_Jensen: Uniform_Base
-	{
-		author="TFV";
-		scope=2;
-		displayName="TFV Combat Uniform (Wood - Jensen)";
-		picture = "\tfv_uniform\data\ui\nor_uniform_wood_icon_ca.paa"; 
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		hiddenSelections[]= {"camo"};
-		hiddenSelectionsTextures[]= {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="TFV_Uniform_Base_Wood_Jensen";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};	
-	
-		class TFV_Uniform_Desert_Jensen: Uniform_Base
-	{
-		author="TFV";
-		scope=2;
-		displayName="TFV Combat Uniform (Desert - Jensen)";
-		picture = "\tfv_uniform\data\ui\nor_uniform_desert_icon_ca.paa"; 
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		hiddenSelections[]= {"camo"};
-		hiddenSelectionsTextures[]= {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="TFV_Uniform_Base_Desert_Jensen";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
 	
 	//LOBERG------------------------------------------------------------------------------------------------	
 	
@@ -974,43 +832,6 @@ class cfgWeapons
 		};
 	};
 	
-	//MURVOLD------------------------------------------------------------------------------------------------	
-	
-		class TFV_Uniform_Wood_Murvold: Uniform_Base
-	{
-		author="TFV";
-		scope=2;
-		displayName="TFV Combat Uniform (Wood - Murvold)";
-		picture = "\tfv_uniform\data\ui\nor_uniform_wood_icon_ca.paa"; 
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		hiddenSelections[]= {"camo"};
-		hiddenSelectionsTextures[]= {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="TFV_Uniform_Base_Wood_Murvold";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};	
-	
-		class TFV_Uniform_Desert_Murvold: Uniform_Base
-	{
-		author="TFV";
-		scope=2;
-		displayName="TFV Combat Uniform (Desert - Murvold)";
-		picture = "\tfv_uniform\data\ui\nor_uniform_desert_icon_ca.paa"; 
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		hiddenSelections[]= {"camo"};
-		hiddenSelectionsTextures[]= {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="TFV_Uniform_Base_Desert_Murvold";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
 	
 	//MYKLEBUST------------------------------------------------------------------------------------------------	
 	
